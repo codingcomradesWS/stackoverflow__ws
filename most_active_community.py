@@ -4,6 +4,11 @@ import re
 
 
 def most_active_community():
+    """
+    This function returns a report of the most active community for this week on stack overflow, using the number of
+    asked questions for the week as a base.
+    :return: string
+    """
     communities_array = []
     data = requests.get("https://stackoverflow.com/tags")
     soup = BeautifulSoup(data.content, 'html.parser')
@@ -24,8 +29,8 @@ def most_active_community():
                 str(communities[j])[str(communities[j]).find("questions tagged") + len("questions tagged"):].split()[0]
     # print(communities_array)
 
-    print(f"most active community is {weekly_active_community} with {max_weekly} questions per week ")
+    return f"most active community is {weekly_active_community} with {max_weekly} questions per week "
 
 
 if __name__ == "__main__":
-    most_active_community()
+    print(most_active_community())
