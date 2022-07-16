@@ -1,4 +1,4 @@
-from newest_questions import get_recent_questions
+from functions.newest_questions import get_recent_questions
 
 
 # Dictionary keys are: Title, Link, Date&Time

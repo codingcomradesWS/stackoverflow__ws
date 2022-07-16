@@ -1,4 +1,4 @@
-from no_accepted_answers import get_questions_with_no_accepted_answers
+from functions.no_accepted_answers import get_questions_with_no_accepted_answers
 
 
 # Dictionary keys are: Title, Link, NumberOfAnswers
