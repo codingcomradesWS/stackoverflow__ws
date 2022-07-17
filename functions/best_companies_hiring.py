@@ -17,7 +17,3 @@ def get_best_companies_hiring(topic):
             title = c.find('a', class_='s-link')
             best_10_companies.append(title.getText())
     return best_10_companies
-
-
-if __name__ == '__main__':
-    print(get_best_companies_hiring('react'))
