@@ -20,7 +20,7 @@ class AppManager:
         self.questions_number_user_input = ""
 
     def _continue_process(self):
-        print("\nContinue? (y / any other key)")
+        print("\nContinue? (y / any others key)")
         start_input = input("> ")
 
         if start_input.lower() == "y":
@@ -61,7 +61,8 @@ class AppManager:
                 print(data)
 
             elif self.no_answers_filter_user_input.lower() == "no answers" or self.no_answers_filter_user_input.lower() == "na":
-                data = get_questions_with_no_accepted_answers(self.tag_user_input, int(self.questions_number_user_input))
+                data = get_questions_with_no_accepted_answers(self.tag_user_input,
+                                                              int(self.questions_number_user_input))
                 for i in data:
                     check_duplication_and_fill(i)
 
