@@ -27,9 +27,12 @@ def unanswered_questions_percentage():
         unanswered_questions = tag_info_formated.select('.fc-black-500.py8')
         unanswered_percentage.append(
             {'tag': tags[i],
-             'unanswered_7days': unanswered_questions[0].contents[0],
-             'unanswered_30days': unanswered_questions[1].contents[0],
-             'unanswered_all_time': unanswered_questions[2].contents[0]}
+             'unanswered_7days': float(
+                 "".join([ch for ch in str(unanswered_questions[0].contents[0]) if ch.isdigit() or ch == '.'])),
+             'unanswered_30days': float(
+                 "".join([ch for ch in str(unanswered_questions[1].contents[0]) if ch.isdigit() or ch == '.'])),
+             'unanswered_all_time': float(
+                 "".join([ch for ch in str(unanswered_questions[2].contents[0]) if ch.isdigit() or ch == '.']))}
         )
     return unanswered_percentage
 
