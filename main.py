@@ -1,5 +1,5 @@
 from functions.newest_questions import get_recent_questions
-from functions.no_accepted_answers import get_questions_with_no_accepted_answers
+from functions.no_answers import get_questions_with_no_accepted_answers
 from functions.new_duplicate_question import new_duplicate_question
 from functions.stack_api import get_search_results
 from pick import pick
@@ -98,6 +98,7 @@ class AppManager:
 
             self._input_options()
 
+
             if self.option[0] == "Search by tag":
                 if self.filter_user_input[0] == "Newest questions":
                     data = get_recent_questions(self.tag_user_input, int(self.questions_number_user_input))
@@ -124,6 +125,7 @@ class AppManager:
 
             if self.option[0] == "Search by text":
                 data = get_search_results(self.text_user_input, self.tag_user_input, self.questions_number_user_input)
+
                 for i in data:
                     print(f"\n{Fore.LIGHTGREEN_EX}----------------------------\n")
                     check_duplication_and_fill(i)

@@ -2,9 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def get_questions_with_no_accepted_answers(topic, number_of_questions=10):
+def get_questions_with_no_answers(topic, number_of_questions=10):
     """
-        This function gets the most questions that have no accepted answers, the number of returned questions is specified by the passed number.
+        This function gets the most questions that have no answers, the number of returned questions is specified by the passed number.
         :param topic: the name of the topic/tag
         :param number_of_questions: the requested number of questions
         :return: list of dictionaries
@@ -13,13 +13,13 @@ def get_questions_with_no_accepted_answers(topic, number_of_questions=10):
         number_of_questions = 50
     list_topic = topic.split()
     if len(list_topic) == 1:
-        url = f'https://stackoverflow.com/questions/tagged/{topic}?sort=Newest&filters=NoAcceptedAnswer'
+        url = f'https://stackoverflow.com/questions/tagged/{topic}?sort=Newest&filters=NoAnswers'
     else:
         new_topic = f'{list_topic[0]}'
         list_topic.pop(0)
         for i in range(len(list_topic)):
             new_topic = new_topic + "%20" + list_topic[i]
-        url = f'https://stackoverflow.com/questions/tagged/{new_topic}?sort=Newest&filters=NoAcceptedAnswer'
+        url = f'https://stackoverflow.com/questions/tagged/{new_topic}?sort=Newest&filters=NoAnswers'
     r = requests.get(url)
     soup = BeautifulSoup(r.content, 'html.parser')
     questions = soup.select("div.s-post-summary.js-post-summary")
@@ -35,5 +35,5 @@ def get_questions_with_no_accepted_answers(topic, number_of_questions=10):
 
 
 if __name__ == '__main__':
-    print(get_questions_with_no_accepted_answers('html css'))
+    print(get_questions_with_no_answers('html css'))
     # print(get_questions_with_no_accepted_answers('python'))
