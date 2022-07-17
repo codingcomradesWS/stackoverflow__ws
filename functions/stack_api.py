@@ -1,6 +1,5 @@
 import json
 from stackapi import StackAPI
-from colorama import *
 
 
 def get_search_results(q_text, tag, number_of_results):
@@ -14,5 +13,4 @@ def get_search_results(q_text, tag, number_of_results):
 
 
 if __name__ == "__main__":
-    print(Fore.BLUE + "herer")
-    # print(get_search_results("How to split a list in python", "python", number_of_results=))
+    print(get_search_results("How to split a list in python", "python", 30))
