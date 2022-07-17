@@ -70,6 +70,7 @@ class AppManager:
             else:
                 print("Only the above filtering options are allowed, please try again")
                 self._get_filter_again()
+                continue
 
             self._continue_process()
 
