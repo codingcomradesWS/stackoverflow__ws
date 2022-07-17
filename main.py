@@ -60,7 +60,7 @@ class AppManager:
 
                 print(data)
 
-            elif self.no_answers_filter_user_input.lower() == "No answers" or self.no_answers_filter_user_input.lower() == "na":
+            elif self.no_answers_filter_user_input.lower() == "no answers" or self.no_answers_filter_user_input.lower() == "na":
                 data = get_questions_with_no_accepted_answers(self.tag_user_input, int(self.questions_number_user_input))
                 for i in data:
                     check_duplication_and_fill(i)
