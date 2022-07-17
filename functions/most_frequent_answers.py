@@ -29,8 +29,8 @@ def get_frequent(topic, number_of_questions=10):
             question_link = 'https://stackoverflow.com/' + q.a['href']
             first_ten_questions.append(
                 {
-                    "title": q.find('a', class_='s-link').getText(),
-                    "link": question_link
+                    "Title": q.find('a', class_='s-link').getText(),
+                    "Link": question_link
                 }
             )
     return first_ten_questions

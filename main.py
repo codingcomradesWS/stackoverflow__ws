@@ -1,7 +1,8 @@
 from functions.newest_questions import get_recent_questions
-from functions.no_answers import get_questions_with_no_accepted_answers
+from functions.no_answers import get_questions_with_no_answers
 from functions.new_duplicate_question import new_duplicate_question
 from functions.stack_api import get_search_results
+from functions.most_frequent_answers import get_frequent
 from pick import pick
 from colorama import Fore, Back, Style
 import json
@@ -49,6 +50,10 @@ class AppManager:
         self.questions_number_user_input = ""
 
     def _continue_process(self):
+        """
+        This function goes through the main program options, or quiting.
+        :return: Nothing
+        """
         title = 'Please choose the preferred action: '
         options = ['Search by tag', 'Search by text', "Quit"]
 
@@ -72,7 +77,7 @@ class AppManager:
 
     def _get_filter(self):
         title = 'Please choose the preferred filter: '
-        options = ["Newest questions", "Questions without answers"]
+        options = ["Newest questions", "Questions without answers", "Most frequent questions"]
 
         option = pick(options, title, indicator='=>', default_index=0)
 
@@ -98,7 +103,6 @@ class AppManager:
 
             self._input_options()
 
-
             if self.option[0] == "Search by tag":
                 if self.filter_user_input[0] == "Newest questions":
                     data = get_recent_questions(self.tag_user_input, int(self.questions_number_user_input))
@@ -112,7 +116,19 @@ class AppManager:
                     input("Press Enter to continue...")
 
                 elif self.filter_user_input[0] == "Questions without answers":
-                    data = get_questions_with_no_accepted_answers(self.tag_user_input, int(self.questions_number_user_input))
+                    data = get_questions_with_no_answers(self.tag_user_input, int(self.questions_number_user_input))
+                    for i in data:
+                        print(f"{Fore.LIGHTGREEN_EX}----------------------------")
+                        check_duplication_and_fill(i)
+                        print(Fore.LIGHTBLUE_EX + link(i["Link"], i["Title"]))
+                        if "originalData" in i:
+                            print(f"{Fore.LIGHTGREEN_EX}This question is a duplicate, original link:"
+                                  f"\n{Fore.LIGHTBLUE_EX}{link(i['originalData']['Link'], i['originalData']['Title'])}\n")
+                    # print(json.dumps(data, indent=4))
+                    input("Press Enter to continue...")
+
+                elif self.filter_user_input[0] == "Most frequent questions":
+                    data = get_frequent(self.tag_user_input, int(self.questions_number_user_input))
                     for i in data:
                         print(f"{Fore.LIGHTGREEN_EX}----------------------------")
                         check_duplication_and_fill(i)
