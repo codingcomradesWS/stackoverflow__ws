@@ -32,8 +32,3 @@ def get_questions_with_no_answers(topic, number_of_questions=10):
                                    "NumberOfAnswers": q.select("div.s-post-summary--stats-item")[1].get("title")})
 
     return questions_list
-
-
-if __name__ == '__main__':
-    print(get_questions_with_no_answers('html css'))
-    # print(get_questions_with_no_accepted_answers('python'))

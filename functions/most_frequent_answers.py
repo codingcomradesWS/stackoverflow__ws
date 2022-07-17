@@ -34,7 +34,3 @@ def get_frequent(topic, number_of_questions=10):
                 }
             )
     return first_ten_questions
-
-
-if __name__ == '__main__':
-    print(get_frequent('python', 20))
