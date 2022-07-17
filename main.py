@@ -1,5 +1,5 @@
 from functions.newest_questions import get_recent_questions
-from functions.no_accepted_answers import get_questions_with_no_accepted_answers
+from functions.no_answers import get_questions_with_no_accepted_answers
 from functions.new_duplicate_question import new_duplicate_question
 
 
