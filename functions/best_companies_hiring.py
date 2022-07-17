@@ -1,6 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
 
+"""
+        This function gets the best 10 companies which is hiring a developers with a specific programming language
+        :param topic: the programming language or the topic
+        :return: list of companies names
+"""
 
 def get_best_companies_hiring(topic):
     r = requests.get(f'https://stackoverflow.com/jobs/companies?tl={topic}')
