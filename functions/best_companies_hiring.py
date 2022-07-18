@@ -20,5 +20,5 @@ def get_best_companies_hiring(topic):
     return best_10_companies
 
 
-if __name__ == "__main__":
-    print(get_best_companies_hiring("python"))
+# if __name__ == "__main__":
+#     print(get_best_companies_hiring("python"))

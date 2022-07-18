@@ -49,7 +49,7 @@ def get_continue_message():
     print("\033[A                             \033[A")
 
 
-def print_formatted_results(data):
+def print_formatted_results(data, input_filter=None):
     for i in data:
         print(f"{Fore.LIGHTGREEN_EX}----------------------------")
 
@@ -60,11 +60,22 @@ def print_formatted_results(data):
         spinner.stop()
         print(f"{Fore.LIGHTGREEN_EX}\033[A                             \033[A")
 
-        print(f"\r{Fore.LIGHTBLUE_EX + link(i['Link'], i['Title'])}")
+        print(f"\n{Fore.GREEN}Title: {Fore.LIGHTBLUE_EX + link(i['Link'], i['Title'])}")
+
+        if input_filter == "Newest questions":
+            print(f"{Fore.GREEN}Time: {Fore.LIGHTGREEN_EX + i['Date&Time']}\n")
+
+        if input_filter == "Questions without answers":
+            print(f"{Fore.GREEN}Number of answers: {Fore.LIGHTGREEN_EX + i['NumberOfAnswers']}\n")
+
+        if input_filter == "Most voted questions":
+            print(f"{Fore.GREEN}Number of votes: {Fore.LIGHTGREEN_EX + i['Votes']}\n")
+
         if "originalData" in i:
-            print(f"{Fore.LIGHTGREEN_EX}This question is a duplicate, original link:"
-                  f"\n{Fore.LIGHTBLUE_EX}{link(i['originalData']['Link'], i['originalData']['Title'])}\n")
+            print(f"{Fore.GREEN}This question is a duplicate of:"
+                  f"\n{Fore.GREEN}Original: {Fore.LIGHTBLUE_EX}{link(i['originalData']['Link'], i['originalData']['Title'])}\n")
     # print(json.dumps(data, indent=4))
+    print(f"{Fore.LIGHTGREEN_EX}----------------------------\n")
     get_continue_message()
 
 
@@ -138,11 +149,11 @@ class AppManager:
             if self.option[0] == "Search by tag":
                 if self.filter_user_input[0] == "Newest questions":
                     data = get_recent_questions(self.tag_user_input, int(self.questions_number_user_input))
-                    print_formatted_results(data)
+                    print_formatted_results(data, self.filter_user_input[0])
 
                 elif self.filter_user_input[0] == "Questions without answers":
                     data = get_questions_with_no_answers(self.tag_user_input, int(self.questions_number_user_input))
-                    print_formatted_results(data)
+                    print_formatted_results(data, self.filter_user_input[0])
 
                 elif self.filter_user_input[0] == "Most frequent questions":
                     data = get_frequent(self.tag_user_input, int(self.questions_number_user_input))
@@ -150,7 +161,7 @@ class AppManager:
 
                 elif self.filter_user_input[0] == "Most voted questions":
                     data = get_most_voted_results(self.tag_user_input, int(self.questions_number_user_input))
-                    print_formatted_results(data)
+                    print_formatted_results(data, self.filter_user_input[0])
 
             if self.option[0] == "Search by text":
                 data = get_search_results(self.text_user_input, self.tag_user_input, int(self.questions_number_user_input))
