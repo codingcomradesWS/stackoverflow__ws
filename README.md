@@ -27,3 +27,8 @@ We are going to scrap data from stackover flow website to show the following dat
 
 Project management board
 link: [https://trello.com/b/FYFvO4Cs/midterm-project](https://trello.com/b/FYFvO4Cs/midterm-project)
+
+## Requirements
+- Since the CSV file size is very large, it should be installed in the project before running it
+  (please install the 2021 dataset) then update the link in the run file
+[csv download link](https://insights.stackoverflow.com/survey)

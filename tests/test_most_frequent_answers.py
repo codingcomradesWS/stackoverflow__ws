@@ -21,3 +21,4 @@ def test_that_the_function_returning_data():
     assert get_frequent('python')[0]['Link'] is not None
 
 
+
