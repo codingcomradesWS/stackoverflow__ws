@@ -73,7 +73,7 @@ def print_formatted_results(data, input_filter=None):
             print(f"{Fore.GREEN}Number of answers: {Fore.LIGHTGREEN_EX + i['NumberOfAnswers']}\n")
 
         if input_filter == "Most voted questions":
-            print(f"{Fore.GREEN}Number of votes: {Fore.LIGHTGREEN_EX + i['Votes']}\n")
+            print(f"{Fore.GREEN}Number of votes: {Fore.LIGHTGREEN_EX + str(i['Votes'])}\n")
 
         if "originalData" in i:
             print(f"{Fore.GREEN}This question is a duplicate of:"
@@ -193,7 +193,7 @@ class AppManager:
                     print_formatted_results(data)
 
                 elif self.filter_user_input[0] == "Most voted questions":
-                    data = get_most_voted_results(self.tag_user_input, int(self.questions_number_user_input))
+                    data = get_most_voted_results(self.tag_user_input, self.questions_number_user_input)
                     print_formatted_results(data, self.filter_user_input[0])
 
             if self.option[0] == "Search by text":
