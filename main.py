@@ -1,8 +1,9 @@
 from functions.newest_questions import get_recent_questions
 from functions.no_answers import get_questions_with_no_answers
 from functions.new_duplicate_question import new_duplicate_question
-from functions.stack_api import get_search_results
+from functions.stack_api import *
 from functions.most_frequent_answers import get_frequent
+from functions.best_companies_hiring import get_best_companies_hiring
 from pick import pick
 from colorama import Fore, Back, Style
 import json
@@ -39,6 +40,22 @@ def link(uri, label=None):
     return escape_mask.format(parameters, uri, label)
 
 
+def get_continue_message():
+    input(f"\nPress Enter to continue...")
+
+
+def print_formatted_results(data):
+    for i in data:
+        print(f"{Fore.LIGHTGREEN_EX}----------------------------")
+        check_duplication_and_fill(i)
+        print(Fore.LIGHTBLUE_EX + link(i["Link"], i["Title"]))
+        if "originalData" in i:
+            print(f"{Fore.LIGHTGREEN_EX}This question is a duplicate, original link:"
+                  f"\n{Fore.LIGHTBLUE_EX}{link(i['originalData']['Link'], i['originalData']['Title'])}\n")
+    # print(json.dumps(data, indent=4))
+    get_continue_message()
+
+
 class AppManager:
 
     def __init__(self):
@@ -55,7 +72,7 @@ class AppManager:
         :return: Nothing
         """
         title = 'Please choose the preferred action: '
-        options = ['Search by tag', 'Search by text', "Quit"]
+        options = ['Search by tag', 'Search by text', "Best hiring companies for a specific programming language", "Quit"]
 
         option = pick(options, title, indicator='=>', default_index=0)
         self.option = option[0]
@@ -67,22 +84,25 @@ class AppManager:
 
         if self.option[0] == "Search by tag":
             self._get_filter()
+            self._get_requested_number()
 
         if self.option[0] == "Search by text":
             print(f"\n{Fore.LIGHTGREEN_EX}Search for:\n")
             self.tag_user_input = input("> ")
-
-        print(f"\n{Fore.LIGHTGREEN_EX}Enter the number of questions to return: \n(max is 50 questions)\n")
-        self.questions_number_user_input = input("> ")
+            self._get_requested_number()
 
     def _get_filter(self):
         title = 'Please choose the preferred filter: '
-        options = ["Newest questions", "Questions without answers", "Most frequent questions"]
+        options = ["Newest questions", "Questions without answers", "Most frequent questions", "Most voted questions"]
 
         option = pick(options, title, indicator='=>', default_index=0)
 
         self.filter_user_input = option[0]
         print(f"{Fore.LIGHTGREEN_EX}\nAction: {Fore.LIGHTYELLOW_EX}{self.filter_user_input[0]}\n")
+
+    def _get_requested_number(self):
+        print(f"\n{Fore.LIGHTGREEN_EX}Enter the number of questions to return: \n(max is 50 questions)\n")
+        self.questions_number_user_input = input("> ")
 
     def start(self):
         colorama.init(autoreset=True)
@@ -94,7 +114,7 @@ class AppManager:
         ** {Fore.YELLOW}of parameters, so we get the data needed {Fore.GREEN}**
         **********************************************
         """)
-        input(f"\nPress Enter to continue...")
+        get_continue_message()
         self._continue_process()
 
         while True:
@@ -106,47 +126,30 @@ class AppManager:
             if self.option[0] == "Search by tag":
                 if self.filter_user_input[0] == "Newest questions":
                     data = get_recent_questions(self.tag_user_input, int(self.questions_number_user_input))
-                    for i in data:
-                        print(f"{Fore.LIGHTGREEN_EX}----------------------------")
-                        check_duplication_and_fill(i)
-                        print(Fore.LIGHTBLUE_EX + link(i["Link"], i["Title"]))
-                        if "originalData" in i:
-                            print(f"{Fore.LIGHTGREEN_EX}This question is a duplicate, original link:"
-                                  f"\n{Fore.LIGHTBLUE_EX}{link(i['originalData']['Link'], i['originalData']['Title'])}\n")
-                    input("Press Enter to continue...")
+                    print_formatted_results(data)
 
                 elif self.filter_user_input[0] == "Questions without answers":
                     data = get_questions_with_no_answers(self.tag_user_input, int(self.questions_number_user_input))
-                    for i in data:
-                        print(f"{Fore.LIGHTGREEN_EX}----------------------------")
-                        check_duplication_and_fill(i)
-                        print(Fore.LIGHTBLUE_EX + link(i["Link"], i["Title"]))
-                        if "originalData" in i:
-                            print(f"{Fore.LIGHTGREEN_EX}This question is a duplicate, original link:"
-                                  f"\n{Fore.LIGHTBLUE_EX}{link(i['originalData']['Link'], i['originalData']['Title'])}\n")
-                    # print(json.dumps(data, indent=4))
-                    input("Press Enter to continue...")
+                    print_formatted_results(data)
 
                 elif self.filter_user_input[0] == "Most frequent questions":
                     data = get_frequent(self.tag_user_input, int(self.questions_number_user_input))
-                    for i in data:
-                        print(f"{Fore.LIGHTGREEN_EX}----------------------------")
-                        check_duplication_and_fill(i)
-                        print(Fore.LIGHTBLUE_EX + link(i["Link"], i["Title"]))
-                        if "originalData" in i:
-                            print(f"{Fore.LIGHTGREEN_EX}This question is a duplicate, original link:"
-                                  f"\n{Fore.LIGHTBLUE_EX}{link(i['originalData']['Link'], i['originalData']['Title'])}\n")
-                    # print(json.dumps(data, indent=4))
-                    input("Press Enter to continue...")
+                    print_formatted_results(data)
+
+                elif self.filter_user_input[0] == "Most voted questions":
+                    data = get_most_voted_results(self.tag_user_input, int(self.questions_number_user_input))
+                    print_formatted_results(data)
 
             if self.option[0] == "Search by text":
                 data = get_search_results(self.text_user_input, self.tag_user_input, self.questions_number_user_input)
+                print_formatted_results(data)
 
+            if self.option[0] == "Best hiring companies for a specific programming language":
+                data = get_best_companies_hiring(self.tag_user_input)
                 for i in data:
                     print(f"\n{Fore.LIGHTGREEN_EX}----------------------------\n")
-                    check_duplication_and_fill(i)
                     print(Fore.LIGHTBLUE_EX + link(i["Link"], i["Title"]))
-                input("Press Enter to continue...")
+                get_continue_message()
 
             self._continue_process()
 
