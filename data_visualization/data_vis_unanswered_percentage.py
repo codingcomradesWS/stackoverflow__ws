@@ -13,7 +13,6 @@ def unanswered_questions_percentage_visualization():
     list_of_dicts = unanswered_questions_percentage()
     df = pd.DataFrame(list_of_dicts, columns=['tag', 'unanswered_7days', 'unanswered_30days', 'unanswered_all_time'],
                       index=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-    # print(df)
     x_var = df['tag'].values
     w = 0.2
     bar1 = np.arange(len(x_var))

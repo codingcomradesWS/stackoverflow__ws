@@ -37,6 +37,6 @@ def unanswered_questions_percentage():
     return unanswered_percentage
 
 
-if __name__ == "__main__":
-    x = unanswered_questions_percentage()
-    print(list(x[0].keys()))
+# if __name__ == "__main__":
+#     x = unanswered_questions_percentage()
+#     print(list(x[0].keys()))
