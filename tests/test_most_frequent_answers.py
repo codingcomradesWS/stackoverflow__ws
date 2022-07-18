@@ -18,6 +18,7 @@ def test_returning_list():
 
 def test_that_the_function_returning_data():
     assert get_frequent('javascript')[0]['Title'] is not None
-    assert get_frequent('java')[0]['Link'] is not None
+    assert get_frequent('python')[0]['Link'] is not None
+
 
 

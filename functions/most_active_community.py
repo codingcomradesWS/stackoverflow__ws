@@ -33,5 +33,5 @@ def most_active_community():
     return communities_array
 
 
-if __name__ == "__main__":
-    print(most_active_community())
+# if __name__ == "__main__":
+#     print(most_active_community())
