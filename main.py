@@ -6,6 +6,7 @@ from functions.most_frequent_answers import get_frequent
 from functions.best_companies_hiring import get_best_companies_hiring
 from pick import pick
 from colorama import Fore, Back, Style
+from halo import Halo
 import json
 import colorama
 
@@ -41,14 +42,25 @@ def link(uri, label=None):
 
 
 def get_continue_message():
-    input(f"\nPress Enter to continue...")
+    spinner = Halo(text='Press Enter to continue...', spinner='dots', color="grey")
+    spinner.start()
+    input()
+    spinner.stop()
+    print("\033[A                             \033[A")
 
 
 def print_formatted_results(data):
     for i in data:
         print(f"{Fore.LIGHTGREEN_EX}----------------------------")
+
+        print()
+        spinner = Halo(text="Getting Data...", text_color="green", spinner='dots', color="grey")
+        spinner.start()
         check_duplication_and_fill(i)
-        print(Fore.LIGHTBLUE_EX + link(i["Link"], i["Title"]))
+        spinner.stop()
+        print(f"{Fore.LIGHTGREEN_EX}\033[A                             \033[A")
+
+        print(f"\r{Fore.LIGHTBLUE_EX + link(i['Link'], i['Title'])}")
         if "originalData" in i:
             print(f"{Fore.LIGHTGREEN_EX}This question is a duplicate, original link:"
                   f"\n{Fore.LIGHTBLUE_EX}{link(i['originalData']['Link'], i['originalData']['Title'])}\n")
@@ -141,7 +153,7 @@ class AppManager:
                     print_formatted_results(data)
 
             if self.option[0] == "Search by text":
-                data = get_search_results(self.text_user_input, self.tag_user_input, self.questions_number_user_input)
+                data = get_search_results(self.text_user_input, self.tag_user_input, int(self.questions_number_user_input))
                 print_formatted_results(data)
 
             if self.option[0] == "Best hiring companies for a specific programming language":
