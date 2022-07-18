@@ -17,7 +17,7 @@ def get_most_voted_results(tag, number_of_results):
     SITE.page_size = number_of_results
     SITE.max_pages = 1
     search_results = SITE.fetch('questions', sort="votes", tgged=tag)
-    returned_results = [{"Title": i["title"], "Link": i["link"], "votes": i["score"]} for i in search_results["items"]]
+    returned_results = [{"Title": i["title"], "Link": i["link"], "Votes": i["score"]} for i in search_results["items"]]
     # print(json.dumps(returned_results, indent=4))
     return returned_results
 
