@@ -24,7 +24,6 @@ def get_recent_questions(user_input, num_of_questions=10):
     return output
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
     # print(len(get_recent_questions("python", 30)))
     # print(get_recent_questions("python", 30))
-    test()

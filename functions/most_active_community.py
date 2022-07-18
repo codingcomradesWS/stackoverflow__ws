@@ -32,5 +32,5 @@ def most_active_community():
     return f"most active community is {weekly_active_community} with {max_weekly} questions per week "
 
 
-if __name__ == "__main__":
-    print(most_active_community())
+# if __name__ == "__main__":
+#     print(most_active_community())

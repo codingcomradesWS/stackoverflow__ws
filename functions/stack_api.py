@@ -22,6 +22,6 @@ def get_most_voted_results(tag, number_of_results):
     return returned_results
 
 
-if __name__ == "__main__":
-    print(get_search_results("How to split a list in python", "python", 10))
-    print(get_most_voted_results("python", 5))
+# if __name__ == "__main__":
+#     print(get_search_results("How to split a list in python", "python", 10))
+#     print(get_most_voted_results("python", 5))
