@@ -1,9 +1,13 @@
+import data_visualization.data_vis_developers_on_stackoverflow
 from functions.newest_questions import get_recent_questions
 from functions.no_answers import get_questions_with_no_answers
 from functions.new_duplicate_question import new_duplicate_question
 from functions.stack_api import *
 from functions.most_frequent_answers import get_frequent
 from functions.best_companies_hiring import get_best_companies_hiring
+from data_visualization.data_vis_developers_on_stackoverflow import developers_on_stackoverflow
+from data_visualization.data_vis_most_active_community import data_vis_most_active_community
+from data_visualization.data_vis_unanswered_percentage import unanswered_questions_percentage_visualization
 from pick import pick
 from colorama import Fore, Back, Style
 from halo import Halo
@@ -88,6 +92,9 @@ class AppManager:
         self.tag_user_input = ""
         self.filter_user_input = ""
         self.questions_number_user_input = ""
+        self.chart_input_option = ""
+        self.chart_select_options = ["Kinds of developers on Stack overflow", "Community activity on Stack overflow",
+                                     "The percentage of unanswered questions for the most popular tags"]
 
     def _continue_process(self):
         """
@@ -95,7 +102,9 @@ class AppManager:
         :return: Nothing
         """
         title = 'Please choose the preferred action: '
-        options = ['Search by tag', 'Search by text', "Best hiring companies for a specific programming language", "Quit"]
+        options = ['Search by tag', 'Search by text', "Access some interesting insights",
+                   "Best hiring companies for a specific programming language",
+                   "Quit"]
 
         option = pick(options, title, indicator='=>', default_index=0)
         self.option = option[0]
@@ -127,6 +136,26 @@ class AppManager:
         print(f"\n{Fore.LIGHTGREEN_EX}Enter the number of questions to return: \n(max is 50 questions)\n")
         self.questions_number_user_input = input("> ")
 
+    def _get_chart_input(self):
+        title = 'Please choose the preferred action: '
+
+        option = pick(self.chart_select_options, title, indicator='=>', default_index=0)
+        self.chart_input_option = option[0]
+        print(f"{Fore.LIGHTGREEN_EX}\nAction: {Fore.LIGHTYELLOW_EX}{self.chart_input_option[0]}\n")
+
+    def _get_chart_render(self):
+        spinner = Halo(text="Getting Data...", text_color="green", spinner='dots', color="grey")
+        spinner.start()
+        if self.chart_input_option[0] == self.chart_select_options[0]:
+            self.chart_reference = developers_on_stackoverflow()
+        elif self.chart_input_option[0] == self.chart_select_options[1]:
+            self.chart_reference = data_vis_most_active_community()
+        elif self.chart_input_option[0] == self.chart_select_options[2]:
+            self.chart_reference = unanswered_questions_percentage_visualization()
+        spinner.stop()
+        print(f"{Fore.LIGHTGREEN_EX}\033[A                             \033[A")
+        get_continue_message()
+
     def start(self):
         colorama.init(autoreset=True)
         print(f"""
@@ -138,13 +167,17 @@ class AppManager:
         **********************************************
         """)
         get_continue_message()
+
         self._continue_process()
 
         while True:
             if self.option[0] == "Quit":
                 break
-
-            self._input_options()
+            if self.option[0] == "Access some interesting insights":
+                self._get_chart_input()
+                self._get_chart_render()
+            else:
+                self._input_options()
 
             if self.option[0] == "Search by tag":
                 if self.filter_user_input[0] == "Newest questions":
