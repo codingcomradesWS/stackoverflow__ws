@@ -29,7 +29,8 @@ def most_active_community():
                 str(communities[j])[str(communities[j]).find("questions tagged") + len("questions tagged"):].split()[0]
     # print(communities_array)
 
-    return f"most active community is {weekly_active_community} with {max_weekly} questions per week "
+    # return f"most active community is {weekly_active_community} with {max_weekly} questions per week "
+    return communities_array
 
 
 if __name__ == "__main__":
