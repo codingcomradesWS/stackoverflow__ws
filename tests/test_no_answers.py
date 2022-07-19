@@ -17,6 +17,7 @@ def test_getting_max_number_of_allowed_requests():
 
 def test_that_the_function_returns_a_list():
     assert type(get_questions_with_no_answers("javascript", 5)) == type([])
+    assert type(get_questions_with_no_answers("python 3", 5)) == type([])
 
 
 def test_that_get_questions_with_no_accepted_answers_function_is_returning_data():

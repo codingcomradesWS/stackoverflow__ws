@@ -45,7 +45,7 @@ def link(uri, label=None):
     return escape_mask.format(parameters, uri, label)
 
 
-def get_continue_message():
+def get_continue_message():  # pragma: no cover
     spinner = Halo(text='Press Enter to continue...', spinner='dots', color="grey")
     spinner.start()
     input()
@@ -53,7 +53,7 @@ def get_continue_message():
     print("\033[A                             \033[A")
 
 
-def print_formatted_results(data, input_filter=None):
+def print_formatted_results(data, input_filter=None):  # pragma: no cover
     for i in data:
         print(f"{Fore.LIGHTGREEN_EX}----------------------------")
 
@@ -83,7 +83,7 @@ def print_formatted_results(data, input_filter=None):
     get_continue_message()
 
 
-class AppManager:
+class AppManager:  # pragma: no cover
 
     def __init__(self):
         # self.is_on = True
@@ -213,6 +213,6 @@ class AppManager:
         return
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     app = AppManager()
     app.start()

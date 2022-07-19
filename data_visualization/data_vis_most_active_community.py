@@ -2,7 +2,7 @@ from functions.most_active_community import most_active_community
 import matplotlib.pyplot as plt
 
 
-def data_vis_most_active_community():
+def data_vis_most_active_community():  # pragma: no cover
     """
     this function will plot a pie chart for the top 5 weekly active communities in stack overflow
     :param:
@@ -25,5 +25,4 @@ def data_vis_most_active_community():
     plt.show()
 
 
-# if __name__ == '__main__':
-#     data_vis_most_active_community()
+
