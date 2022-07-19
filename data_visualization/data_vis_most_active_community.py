@@ -25,5 +25,5 @@ def data_vis_most_active_community():
     plt.show()
 
 
-if __name__ == '__main__':
-    data_vis_most_active_community()
+# if __name__ == '__main__':
+#     data_vis_most_active_community()
