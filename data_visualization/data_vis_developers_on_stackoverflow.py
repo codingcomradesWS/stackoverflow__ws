@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-def developers_on_stackoverflow():
+def developers_on_stackoverflow():  # pragma: no cover
     visitors = pd.read_csv('csv/survey_results_public.csv')
     employment = visitors['Employment'].value_counts()
     type_of_emp = employment.index.tolist()
@@ -12,6 +12,6 @@ def developers_on_stackoverflow():
     plt.show()
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     developers_on_stackoverflow()
 

@@ -4,7 +4,7 @@ from functions.unanswerd_questions_percentage import unanswered_questions_percen
 import numpy as np
 
 
-def unanswered_questions_percentage_visualization():
+def unanswered_questions_percentage_visualization():  # pragma: no cover
     """
     this function will call the unanswered_questions_percentage function and represent the output in a bar chart
     :param:None
@@ -30,5 +30,5 @@ def unanswered_questions_percentage_visualization():
     plt.show()
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     unanswered_questions_percentage_visualization()

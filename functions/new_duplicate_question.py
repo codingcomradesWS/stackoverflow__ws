@@ -21,15 +21,13 @@ def new_duplicate_question(questions_list):
             notification = soup.select('#question-header h1 a')
             # return f"- {i['Title']} \nduplicated question from the original question \"{notification[0].contents[0]}\" \n original question link is {i['Link']}"
             return {"Title": notification[0].contents[0],
-                    "Link": f"https://stackoverflow.com{questions_list['Link']}"}
+                    "Link": f"{questions_list['Link']}"}
     else:
         return
 
 
-if __name__ == '__main__':
-    array = [{"Title": "Is grid something defined on the JavaScript language? [duplicate]",
-              "Link": "https://stackoverflow.com/questions/8312459/iterate-through-object-properties"},
-             {"Title": "Is grid something defined on the JavaScript language? ",
+if __name__ == '__main__':  # pragma: no cover
+    array = {"Title": "Is grid something defined on the JavaScript language? [duplicate]",
               "Link": "https://stackoverflow.com/questions/8312459/iterate-through-object-properties"}
-             ]
+
     print(new_duplicate_question(array))
