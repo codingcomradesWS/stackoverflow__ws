@@ -25,5 +25,4 @@ def data_vis_most_active_community():  # pragma: no cover
     plt.show()
 
 
-if __name__ == '__main__':  # pragma: no cover
-    data_vis_most_active_community()
+
