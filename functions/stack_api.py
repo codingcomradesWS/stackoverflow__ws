@@ -3,10 +3,13 @@ from stackapi import StackAPI
 
 
 def get_search_results(q_text, tag, number_of_results, test_json=None):
+    if number_of_results > 50:
+        number_of_results = 50
+
     if test_json is not None:
         with open(f"json/{test_json}.json") as f:
             data = json.load(f)
-            returned_results = [{"Title": i["title"], "Link": i["link"]} for i in data]
+            returned_results = [{"Title": data[i]["title"], "Link": data[i]["link"]} for i in range(number_of_results)]
             return returned_results
 
     else:
@@ -20,17 +23,22 @@ def get_search_results(q_text, tag, number_of_results, test_json=None):
 
 
 def get_most_voted_results(tag, number_of_results, test_json=None):
+    if number_of_results > 50:
+        number_of_results = 50
+
     if test_json is not None:
         with open(f"json/{test_json}.json") as f:
             data = json.load(f)
-            returned_results = [{"Title": f"\n{i['title']}\n", "Link": i["link"], "Votes": i["score"]} for i in data]
+            returned_results = [{"Title": f"\n{data[i]['title']}\n", "Link": data[i]["link"], "Votes": data[i]["score"]}
+                                for i in range(number_of_results)]
             return returned_results
     else:
         SITE = StackAPI('stackoverflow')
         SITE.page_size = number_of_results
         SITE.max_pages = 1
         search_results = SITE.fetch('questions', sort="votes", tgged=tag)
-        returned_results = [{"Title": f"\n{i['title']}\n", "Link": i["link"], "Votes": i["score"]} for i in search_results["items"]]
+        returned_results = [{"Title": f"\n{i['title']}\n", "Link": i["link"], "Votes": i["score"]}
+                            for i in search_results["items"]]
         # print(json.dumps(returned_results, indent=4))
         return returned_results
 
