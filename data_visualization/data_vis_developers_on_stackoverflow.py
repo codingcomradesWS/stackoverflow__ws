@@ -3,7 +3,12 @@ import matplotlib.pyplot as plt
 
 
 def developers_on_stackoverflow():
-    visitors = pd.read_csv('csv/survey_results_public.csv')
+    """
+    This function is returning a graph with the kind of developers who is visiting and acting on stackoverflow with a
+    percentage
+    :return:
+    """
+    visitors = pd.read_csv('../csv/survey_results_public.csv')
     employment = visitors['Employment'].value_counts()
     type_of_emp = employment.index.tolist()
     number = employment.values.tolist()
