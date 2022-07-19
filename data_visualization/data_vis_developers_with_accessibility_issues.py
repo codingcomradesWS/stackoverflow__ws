@@ -1,7 +1,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 def devs_with_accessibility_issues():  # pragma: no cover
+    """
+    This function returning the number of developers who are having issues with working on stackoverflow and who are not or prefer not to say
+    :return:
+    """
     final_data =[]
     types_of_issues =['Having difficulty Seeing / Hearing / Walking / Standing without assistance', 'Do not have issues or prefer not to say']
 
