@@ -2,543 +2,1385 @@
     {
       "tags": [
         "python",
-        "pandas",
+        "string",
         "list",
-        "for-loop",
-        "random"
+        "dictionary",
+        "tuples"
       ],
       "owner": {
-        "account_id": 24704688,
+        "account_id": 25838083,
         "reputation": 1,
-        "user_id": 18595640,
+        "user_id": 19574157,
         "user_type": "registered",
-        "profile_image": "https://graph.facebook.com/1989698871202527/picture?type=large",
-        "display_name": "Francesco Calderone",
-        "link": "https://stackoverflow.com/users/18595640/francesco-calderone"
+        "profile_image": "https://lh3.googleusercontent.com/a-/AFdZucrKhLcULqPhW1HE3MxhRKyxxzvlUpuXQprVmiEojw=k-s256",
+        "display_name": "A. N. C.",
+        "link": "https://stackoverflow.com/users/19574157/a-n-c"
       },
       "is_answered": false,
-      "view_count": 37,
-      "answer_count": 1,
+      "view_count": 46,
+      "answer_count": 0,
       "score": 0,
-      "last_activity_date": 1658217523,
-      "creation_date": 1658215825,
-      "last_edit_date": 1658217523,
-      "question_id": 73032787,
+      "last_activity_date": 1658177239,
+      "creation_date": 1658169359,
+      "last_edit_date": 1658177239,
+      "question_id": 73027062,
       "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/73032787/how-to-get-unique-random-values-from-a-list-within-a-for-loop",
-      "title": "how to get unique random values from a list within a for loop?"
-    },
-    {
-      "tags": [
-        "python"
-      ],
-      "owner": {
-        "account_id": 25841735,
-        "reputation": 1,
-        "user_id": 19577187,
-        "user_type": "registered",
-        "profile_image": "https://lh3.googleusercontent.com/a-/AFdZucpINOax5hG7736p9kpqheFp2Q96YoBE9KyepvAc=k-s256",
-        "display_name": "Akshay Jaiswal",
-        "link": "https://stackoverflow.com/users/19577187/akshay-jaiswal"
-      },
-      "is_answered": false,
-      "view_count": 20,
-      "closed_date": 1658215624,
-      "answer_count": 0,
-      "score": -4,
-      "last_activity_date": 1658216025,
-      "creation_date": 1658214728,
-      "last_edit_date": 1658216025,
-      "question_id": 73032583,
-      "link": "https://stackoverflow.com/questions/73032583/how-to-debug-the-code-in-python-spyder-and-how-to-get-the-error",
-      "closed_reason": "Not suitable for this site",
-      "title": "How to debug the code in python (spyder) and how to get the error"
+      "link": "https://stackoverflow.com/questions/73027062/iterate-phrase-string-through-python-dict-that-contains-one-two-or-more-word-in",
+      "title": "Iterate phrase string through python dict that contains one, two or more word in key and add the strings to a list if exist in dict keys"
     },
     {
       "tags": [
         "python",
-        "flask",
-        "monitoring"
+        "itertools"
       ],
       "owner": {
-        "account_id": 7315160,
-        "reputation": 196,
-        "user_id": 5573074,
+        "account_id": 25488287,
+        "reputation": 31,
+        "user_id": 19283541,
         "user_type": "registered",
-        "profile_image": "https://graph.facebook.com/10102695565342245/picture?type=large",
-        "display_name": "David Bernat",
-        "link": "https://stackoverflow.com/users/5573074/david-bernat"
-      },
-      "is_answered": false,
-      "view_count": 11,
-      "answer_count": 0,
-      "score": -1,
-      "last_activity_date": 1658201976,
-      "creation_date": 1658201976,
-      "question_id": 73030834,
-      "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/73030834/framework-for-building-flask-process-monitoring-with-local-database",
-      "title": "Framework for building Flask process monitoring with local database?"
-    },
-    {
-      "tags": [
-        "python",
-        "pandas",
-        "dataframe"
-      ],
-      "owner": {
-        "account_id": 25600406,
-        "reputation": 1,
-        "user_id": 19375510,
-        "user_type": "registered",
-        "profile_image": "https://www.gravatar.com/avatar/617a80006d72dfca3f7cc6ab7fbada5c?s=256&d=identicon&r=PG",
-        "display_name": "Eugenio5",
-        "link": "https://stackoverflow.com/users/19375510/eugenio5"
+        "profile_image": "https://www.gravatar.com/avatar/ac8a51b177dd862c5fb969be79a24575?s=256&d=identicon&r=PG",
+        "display_name": "radishapollo ",
+        "link": "https://stackoverflow.com/users/19283541/radishapollo"
       },
       "is_answered": true,
-      "view_count": 23,
-      "answer_count": 2,
-      "score": 0,
-      "last_activity_date": 1658182120,
-      "creation_date": 1658179982,
-      "question_id": 73028870,
-      "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/73028870/in-python-pandas-how-do-you-eliminate-rows-of-data-that-fail-to-meet-a-conditio",
-      "title": "In python pandas, How do you eliminate rows of data that fail to meet a condition of grouped data?"
-    },
-    {
-      "tags": [
-        "python",
-        "opencv",
-        "deep-learning",
-        "pyinstaller",
-        "relative-path"
-      ],
-      "owner": {
-        "account_id": 25838659,
-        "reputation": 11,
-        "user_id": 19574643,
-        "user_type": "registered",
-        "profile_image": "https://www.gravatar.com/avatar/b63f0f37601656dfea9f39e41643d24e?s=256&d=identicon&r=PG",
-        "display_name": "Chaitanya Sethi",
-        "link": "https://stackoverflow.com/users/19574643/chaitanya-sethi"
-      },
-      "is_answered": false,
-      "view_count": 26,
-      "answer_count": 1,
-      "score": 1,
-      "last_activity_date": 1658214528,
-      "creation_date": 1658174893,
-      "last_edit_date": 1658209312,
-      "question_id": 73028030,
-      "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/73028030/deep-learning-model-gives-inaccurate-results-in-executable-file-program-unlike-t",
-      "title": "Deep Learning Model gives inaccurate results in executable file program unlike the same script in python, messing up predictions"
-    },
-    {
-      "tags": [
-        "python",
-        "beautifulsoup"
-      ],
-      "owner": {
-        "account_id": 21763756,
-        "reputation": 47,
-        "user_id": 16067945,
-        "user_type": "registered",
-        "profile_image": "https://www.gravatar.com/avatar/ffb4c21478f29432997f601c40178ae5?s=256&d=identicon&r=PG&f=1",
-        "display_name": "Diana Mele",
-        "link": "https://stackoverflow.com/users/16067945/diana-mele"
-      },
-      "is_answered": true,
-      "view_count": 21,
-      "answer_count": 1,
-      "score": 0,
-      "last_activity_date": 1658160120,
-      "creation_date": 1658159119,
-      "question_id": 73025076,
-      "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/73025076/scrape-information-with-beautifulsoup-4-when-there-is-not-a-class",
-      "title": "Scrape information with BeautifulSoup 4 when there is not a &quot;class&quot;"
-    },
-    {
-      "tags": [
-        "python",
-        "pandas",
-        "matplotlib",
-        "pyspark"
-      ],
-      "owner": {
-        "account_id": 18134871,
-        "reputation": 21,
-        "user_id": 13189547,
-        "user_type": "registered",
-        "profile_image": "https://www.gravatar.com/avatar/10090a2383c07cb2ab1a454cd2bd0359?s=256&d=identicon&r=PG&f=1",
-        "display_name": "Dimpu",
-        "link": "https://stackoverflow.com/users/13189547/dimpu"
-      },
-      "is_answered": false,
-      "view_count": 13,
-      "answer_count": 0,
-      "score": -1,
-      "last_activity_date": 1658107096,
-      "creation_date": 1658107096,
-      "question_id": 73016465,
-      "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/73016465/creating-plot-graph-after-converting-pyspark-dataframe-to-pandas-dataframe",
-      "title": "Creating plot/graph after converting PySpark dataframe to Pandas dataframe"
-    },
-    {
-      "tags": [
-        "python",
-        "selenium",
-        "for-loop",
-        "range",
-        "nested-for-loop"
-      ],
-      "owner": {
-        "account_id": 20700152,
-        "reputation": 3,
-        "user_id": 15199444,
-        "user_type": "registered",
-        "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GgxK8L_cPpd3ns-PkSxaJ0iGZeGnlhv1anDjeJfag=k-s256",
-        "display_name": "Temidayo Amure",
-        "link": "https://stackoverflow.com/users/15199444/temidayo-amure"
-      },
-      "is_answered": true,
-      "view_count": 27,
-      "accepted_answer_id": 73017563,
-      "answer_count": 1,
-      "score": 0,
-      "last_activity_date": 1658121042,
-      "creation_date": 1658104411,
-      "question_id": 73016304,
-      "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/73016304/how-can-i-iterate-through-rows-of-web-form-using-selenium",
-      "title": "How can I iterate through rows of web form using selenium?"
-    },
-    {
-      "tags": [
-        "python",
-        "class",
-        "tkinter",
-        "customtkinter"
-      ],
-      "owner": {
-        "account_id": 19177921,
-        "reputation": 91,
-        "user_id": 14010274,
-        "user_type": "registered",
-        "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GjgJIbiPREr4YTFjNZihsw2oV1pRJxieI7JlyuVOA=k-s256",
-        "display_name": "Jared McCallister",
-        "link": "https://stackoverflow.com/users/14010274/jared-mccallister"
-      },
-      "is_answered": false,
-      "view_count": 24,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1658097900,
-      "creation_date": 1658097900,
-      "question_id": 73015863,
-      "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/73015863/python-tkinter-breaking-buttons-labels-comboboxes-into-separate-files",
-      "title": "Python TKinter - breaking buttons, labels, comboboxes into separate files"
-    },
-    {
-      "tags": [
-        "python",
-        "json",
-        "sqlite"
-      ],
-      "owner": {
-        "account_id": 22868075,
-        "reputation": 1,
-        "user_id": 17011545,
-        "user_type": "registered",
-        "profile_image": "https://lh3.googleusercontent.com/a/AATXAJyVRLG7G-O8Jsfuz6G9JCJcIxvDCb5Qnl2RRJ9o=k-s256",
-        "display_name": "Will Chiu",
-        "link": "https://stackoverflow.com/users/17011545/will-chiu"
-      },
-      "is_answered": false,
-      "view_count": 27,
-      "answer_count": 0,
-      "score": -2,
-      "last_activity_date": 1658090687,
-      "creation_date": 1658090687,
-      "question_id": 73015232,
-      "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/73015232/cannot-seem-to-get-upsert-syntax-to-work-in-python",
-      "title": "Cannot seem to get UPSERT syntax to work in Python?"
-    },
-    {
-      "tags": [
-        "python"
-      ],
-      "owner": {
-        "account_id": 24906836,
-        "reputation": 1,
-        "user_id": 18776803,
-        "user_type": "registered",
-        "profile_image": "https://www.gravatar.com/avatar/698c7f076d4f7991aa0fc54f92aaef45?s=256&d=identicon&r=PG",
-        "display_name": "pcmm23",
-        "link": "https://stackoverflow.com/users/18776803/pcmm23"
-      },
-      "is_answered": false,
-      "view_count": 43,
-      "closed_date": 1658205103,
-      "answer_count": 0,
-      "score": -3,
-      "last_activity_date": 1658081804,
-      "creation_date": 1658081804,
-      "question_id": 73014261,
-      "link": "https://stackoverflow.com/questions/73014261/book-exercise-43",
-      "closed_reason": "Needs more focus",
-      "title": "Book exercise 43"
-    },
-    {
-      "tags": [
-        "python",
-        "machine-learning",
-        "keras"
-      ],
-      "owner": {
-        "account_id": 12942469,
-        "reputation": 51,
-        "user_id": 9357817,
-        "user_type": "registered",
-        "profile_image": "https://www.gravatar.com/avatar/04fe4fcad92eaff612c8ce3ff8862d79?s=256&d=identicon&r=PG&f=1",
-        "display_name": "Vikas M",
-        "link": "https://stackoverflow.com/users/9357817/vikas-m"
-      },
-      "is_answered": false,
-      "view_count": 30,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1658130744,
-      "creation_date": 1657993634,
-      "last_edit_date": 1658130744,
-      "question_id": 73006447,
-      "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/73006447/in0-and-in1-must-have-compatible-batch-dimensions-when-using-predict-on-mod",
-      "title": "In[0] and In[1] must have compatible batch dimensions when using .predict on model"
-    },
-    {
-      "tags": [
-        "python",
-        "pandas",
-        "dataframe"
-      ],
-      "owner": {
-        "account_id": 15015961,
-        "reputation": 11,
-        "user_id": 10838971,
-        "user_type": "registered",
-        "profile_image": "https://www.gravatar.com/avatar/a64b45d5d00cf556b160c9ed98e4ba44?s=256&d=identicon&r=PG&f=1",
-        "display_name": "LohTC",
-        "link": "https://stackoverflow.com/users/10838971/lohtc"
-      },
-      "is_answered": true,
-      "view_count": 32,
-      "accepted_answer_id": 73003287,
+      "view_count": 90,
       "answer_count": 3,
-      "score": 0,
-      "last_activity_date": 1658031076,
-      "creation_date": 1657962306,
-      "last_edit_date": 1658031076,
-      "question_id": 73002908,
+      "score": 2,
+      "last_activity_date": 1657895461,
+      "creation_date": 1657877595,
+      "last_edit_date": 1657889470,
+      "question_id": 72991924,
       "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/73002908/how-to-use-the-value-in-a-variable-as-name-to-create-a-panda-data-frame",
-      "title": "How to use the value in a variable as name to create a panda data frame?"
+      "link": "https://stackoverflow.com/questions/72991924/list-all-combinations-of-a-items-into-b-groups-of-size-c",
+      "title": "List all combinations of a items into b groups of size c"
     },
     {
       "tags": [
-        "python",
-        "excel",
-        "pandas",
-        "directory"
+        "python"
       ],
       "owner": {
-        "account_id": 18772156,
-        "reputation": 33,
-        "user_id": 13769033,
+        "account_id": 25791425,
+        "reputation": 11,
+        "user_id": 19535436,
         "user_type": "registered",
-        "profile_image": "https://www.gravatar.com/avatar/56e2bea8358653daf2c4363242816308?s=256&d=identicon&r=PG",
-        "display_name": "simone100",
-        "link": "https://stackoverflow.com/users/13769033/simone100"
+        "profile_image": "https://lh3.googleusercontent.com/a-/AFdZucrHStmC3G06abXGTOenJ4OoMr7QZiYcdoHj8_yv=k-s256",
+        "display_name": "Oliver Fitzgerald",
+        "link": "https://stackoverflow.com/users/19535436/oliver-fitzgerald"
       },
-      "is_answered": false,
-      "view_count": 35,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1657948027,
-      "creation_date": 1657895449,
-      "last_edit_date": 1657948027,
-      "question_id": 72995597,
-      "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/72995597/assign-cell-value-based-on-the-part-of-the-name-of-a-file-in-a-folder-with-pytho",
-      "title": "Assign cell value based on the part of the name of a file in a folder with Python in Excel"
-    },
-    {
-      "tags": [
-        "python",
-        "pandas",
-        "tensorflow",
-        "machine-learning",
-        "keras"
-      ],
-      "owner": {
-        "account_id": 1520139,
-        "reputation": 1268,
-        "user_id": 1420026,
-        "user_type": "registered",
-        "accept_rate": 76,
-        "profile_image": "https://www.gravatar.com/avatar/35b55a83e8fe4c44e4bc67f4611f81ed?s=256&d=identicon&r=PG",
-        "display_name": "Muaz Usmani",
-        "link": "https://stackoverflow.com/users/1420026/muaz-usmani"
-      },
-      "is_answered": false,
-      "view_count": 28,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1657893660,
-      "creation_date": 1657891430,
-      "last_edit_date": 1657893660,
-      "question_id": 72994720,
-      "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/72994720/optimizing-data-pipeline-for-a-large-time-series-dataset",
-      "title": "Optimizing data pipeline for a large time series dataset"
-    },
-    {
-      "tags": [
-        "python",
-        "path",
-        "directory-structure"
-      ],
-      "owner": {
-        "account_id": 25760781,
-        "reputation": 1,
-        "user_id": 19556491,
-        "user_type": "registered",
-        "profile_image": "https://lh3.googleusercontent.com/a-/AFdZucqZg4IQYsMeVoSyoPHxhqvu91Sm_DkAp59n_3Da6A=k-s256",
-        "display_name": "bps",
-        "link": "https://stackoverflow.com/users/19556491/bps"
-      },
-      "is_answered": false,
-      "view_count": 24,
-      "answer_count": 0,
+      "is_answered": true,
+      "view_count": 64,
+      "answer_count": 1,
       "score": -1,
-      "last_activity_date": 1657890007,
-      "creation_date": 1657890007,
-      "question_id": 72994401,
+      "last_activity_date": 1657740670,
+      "creation_date": 1657734771,
+      "last_edit_date": 1657740670,
+      "question_id": 72970618,
       "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/72994401/how-to-store-file-paths-efficiently-python",
-      "title": "How to store file paths efficiently? python"
+      "link": "https://stackoverflow.com/questions/72970618/how-to-find-any-list-value-in-a-dictionary",
+      "title": "How to find any list value in a dictionary"
     },
     {
       "tags": [
         "python",
         "python-3.x",
-        "pyqt",
-        "pyqt5"
+        "list"
       ],
       "owner": {
-        "account_id": 25808039,
-        "reputation": 1,
-        "user_id": 19549286,
+        "account_id": 16808637,
+        "reputation": 71,
+        "user_id": 12152152,
         "user_type": "registered",
-        "profile_image": "https://lh3.googleusercontent.com/a-/AFdZucoVF21Dbv2LmaNwiS62cqxKUiaVYhehgtL2702q=k-s256",
-        "display_name": "Swarnim Burnwal",
-        "link": "https://stackoverflow.com/users/19549286/swarnim-burnwal"
+        "profile_image": "https://lh6.googleusercontent.com/-jUyMFy103Sc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rft3Erg_zo_XR3LcXsBMNtCxsvMLg/photo.jpg?sz=256",
+        "display_name": "Arshbir Sandhu",
+        "link": "https://stackoverflow.com/users/12152152/arshbir-sandhu"
       },
-      "is_answered": false,
+      "is_answered": true,
       "view_count": 24,
-      "answer_count": 0,
-      "score": -1,
-      "last_activity_date": 1657951536,
-      "creation_date": 1657887114,
-      "last_edit_date": 1657951536,
-      "question_id": 72993810,
-      "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/72993810/trying-to-make-a-jarvis-using-pyqt5-main-window-gui-works-but-jarvis-doesnt-spe",
-      "title": "trying to make a jarvis using pyqt5 main window gui works but jarvis doesn&#39;t speak"
+      "closed_date": 1657730485,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1657857422,
+      "creation_date": 1657730266,
+      "last_edit_date": 1657735251,
+      "question_id": 72969747,
+      "link": "https://stackoverflow.com/questions/72969747/how-to-split-list-to-a-specific-length-sublist-and-remaining-parts-to-a-separate",
+      "closed_reason": "Duplicate",
+      "title": "How to Split list to a specific length sublist and remaining parts to a separate sublist in Python?"
     },
     {
       "tags": [
         "python",
-        "esp32",
-        "esp-idf"
+        "ansible",
+        "jinja2"
       ],
       "owner": {
-        "account_id": 935202,
-        "reputation": 47324,
-        "user_id": 964243,
+        "account_id": 16089499,
+        "reputation": 73,
+        "user_id": 11753451,
         "user_type": "registered",
-        "accept_rate": 66,
-        "profile_image": "https://i.stack.imgur.com/fL1rH.png?s=256&g=1",
-        "display_name": "Boann",
-        "link": "https://stackoverflow.com/users/964243/boann"
+        "profile_image": "https://graph.facebook.com/2353324161356838/picture?type=large",
+        "display_name": "Gregu",
+        "link": "https://stackoverflow.com/users/11753451/gregu"
+      },
+      "is_answered": true,
+      "view_count": 48,
+      "accepted_answer_id": 72964799,
+      "answer_count": 1,
+      "score": 2,
+      "last_activity_date": 1657711228,
+      "creation_date": 1657707339,
+      "last_edit_date": 1657711228,
+      "question_id": 72964594,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72964594/why-it-is-possible-to-use-a-split-filter-in-ansible",
+      "title": "Why it is possible to use a split filter in ansible?"
+    },
+    {
+      "tags": [
+        "python",
+        "html",
+        "django",
+        "django-templates",
+        "jinja2"
+      ],
+      "owner": {
+        "account_id": 25793802,
+        "reputation": 3,
+        "user_id": 19537408,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/e856338dd4e9a77f22af770b61be319c?s=256&d=identicon&r=PG",
+        "display_name": "oleqich",
+        "link": "https://stackoverflow.com/users/19537408/oleqich"
+      },
+      "is_answered": true,
+      "view_count": 28,
+      "accepted_answer_id": 72958379,
+      "answer_count": 1,
+      "score": -1,
+      "last_activity_date": 1657742317,
+      "creation_date": 1657659339,
+      "last_edit_date": 1657742317,
+      "question_id": 72958282,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72958282/my-objects-duplicate-each-other-in-django-template",
+      "title": "My objects duplicate each other in django template"
+    },
+    {
+      "tags": [
+        "python",
+        "pandas",
+        "multithreading",
+        "web-scraping",
+        "beautifulsoup"
+      ],
+      "owner": {
+        "account_id": 24954989,
+        "reputation": 101,
+        "user_id": 18819439,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/23956d4abe586e728de33b87924f4bf8?s=256&d=identicon&r=PG",
+        "display_name": "Gescof",
+        "link": "https://stackoverflow.com/users/18819439/gescof"
+      },
+      "is_answered": true,
+      "view_count": 45,
+      "accepted_answer_id": 72888742,
+      "answer_count": 3,
+      "score": 0,
+      "last_activity_date": 1657175895,
+      "creation_date": 1657133982,
+      "question_id": 72888651,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72888651/how-to-read-file-of-urls-and-web-scrape-them-with-multithreading",
+      "title": "How to read file of URLs and web scrape them with multithreading"
+    },
+    {
+      "tags": [
+        "python",
+        "arrays",
+        "list",
+        "oop",
+        "nested"
+      ],
+      "owner": {
+        "account_id": 21642616,
+        "reputation": 17,
+        "user_id": 15964560,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a/AATXAJw1B9lagAFTyyZTJ5lKOnhOhS9KWjzxkuF8c7lD5g=k-s256",
+        "display_name": "Mark Pampuch",
+        "link": "https://stackoverflow.com/users/15964560/mark-pampuch"
       },
       "is_answered": false,
-      "view_count": 64,
-      "answer_count": 0,
-      "score": 0,
-      "last_activity_date": 1657903021,
-      "creation_date": 1657824694,
-      "last_edit_date": 1657903021,
-      "question_id": 72985375,
+      "view_count": 52,
+      "answer_count": 1,
+      "score": -1,
+      "last_activity_date": 1657050722,
+      "creation_date": 1657050117,
+      "question_id": 72874718,
       "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/72985375/esp-idf-installation-throws-up-python-errors",
-      "title": "ESP-IDF installation throws up Python errors"
+      "link": "https://stackoverflow.com/questions/72874718/how-to-put-an-object-inside-a-list-in-python",
+      "title": "How to put an object inside a list in python"
     },
     {
       "tags": [
         "python"
       ],
       "owner": {
-        "account_id": 25762678,
-        "reputation": 1,
-        "user_id": 19513328,
+        "account_id": 25728844,
+        "reputation": 35,
+        "user_id": 19484710,
         "user_type": "registered",
-        "profile_image": "https://i.stack.imgur.com/5tCuh.png?s=256&g=1",
-        "display_name": "Gui_Crypto",
-        "link": "https://stackoverflow.com/users/19513328/gui-crypto"
+        "profile_image": "https://lh3.googleusercontent.com/a/AItbvmkMvo8hAr4WJCF3uWcf7St9-GXwRqAYctD7e51J=k-s256",
+        "display_name": "User1917931829",
+        "link": "https://stackoverflow.com/users/19484710/user1917931829"
       },
-      "is_answered": false,
-      "view_count": 13,
-      "answer_count": 0,
+      "is_answered": true,
+      "view_count": 63,
+      "accepted_answer_id": 72865255,
+      "answer_count": 5,
       "score": 0,
-      "last_activity_date": 1657824386,
-      "creation_date": 1657824386,
-      "question_id": 72985332,
+      "last_activity_date": 1657005984,
+      "creation_date": 1657004587,
+      "last_edit_date": 1657004632,
+      "question_id": 72865197,
       "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/72985332/pysimplegui-multiple-screens-error-recognizing-variable",
-      "title": "PysimpleGui multiple screens error recognizing variable"
+      "link": "https://stackoverflow.com/questions/72865197/splitting-each-keys-value-in-a-list-of-a-dictionary-in-python",
+      "title": "Splitting each key&#39;s value in a list of a dictionary in Python"
     },
     {
       "tags": [
         "python",
-        "arguments",
-        "wrapper"
+        "python-3.10"
       ],
       "owner": {
-        "account_id": 25809862,
-        "reputation": 11,
-        "user_id": 19550813,
+        "account_id": 23540307,
+        "reputation": 23,
+        "user_id": 19388583,
         "user_type": "registered",
-        "profile_image": "https://www.gravatar.com/avatar/e6eafc6c823458c2043af89da9ea94c4?s=256&d=identicon&r=PG",
-        "display_name": "chbot95",
-        "link": "https://stackoverflow.com/users/19550813/chbot95"
+        "profile_image": "https://www.gravatar.com/avatar/e247a81416ccdadd3acbf7404be3f018?s=256&d=identicon&r=PG&f=1",
+        "display_name": "panu",
+        "link": "https://stackoverflow.com/users/19388583/panu"
+      },
+      "is_answered": false,
+      "view_count": 21,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1656496426,
+      "creation_date": 1656496071,
+      "last_edit_date": 1656496426,
+      "question_id": 72799280,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72799280/stringing-file-names-through-program-script-two-inputs",
+      "title": "Stringing file names through program/script (two-inputs)"
+    },
+    {
+      "tags": [
+        "python",
+        "tkinter"
+      ],
+      "owner": {
+        "account_id": 25344774,
+        "reputation": 23,
+        "user_id": 19162623,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/1e5338cb6721845a4adb4cb488419fcd?s=256&d=identicon&r=PG",
+        "display_name": "bidi",
+        "link": "https://stackoverflow.com/users/19162623/bidi"
+      },
+      "is_answered": false,
+      "view_count": 42,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1655915974,
+      "creation_date": 1655915613,
+      "last_edit_date": 1655915974,
+      "question_id": 72719067,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72719067/the-button-hanging-on-tkinter",
+      "title": "the button hanging on tkinter"
+    },
+    {
+      "tags": [
+        "python",
+        "python-3.x",
+        "list",
+        "slice"
+      ],
+      "owner": {
+        "account_id": 25165436,
+        "reputation": 13,
+        "user_id": 19009034,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/d1c75bff124783f8773e351ed38fc0e0?s=256&d=identicon&r=PG&f=1",
+        "display_name": "younes alaoui",
+        "link": "https://stackoverflow.com/users/19009034/younes-alaoui"
       },
       "is_answered": true,
-      "view_count": 56,
-      "accepted_answer_id": 72998557,
+      "view_count": 49,
+      "accepted_answer_id": 72698100,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1655802734,
+      "creation_date": 1655802243,
+      "question_id": 72698030,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72698030/i-dont-how-this-list-slicing-works-can-anybody-explain",
+      "title": "I don&#39;t how this list slicing works, can anybody explain?"
+    },
+    {
+      "tags": [
+        "python",
+        "github",
+        "pre-commit",
+        "pre-commit.com",
+        "pdoc"
+      ],
+      "owner": {
+        "account_id": 15204710,
+        "reputation": 95,
+        "user_id": 11874713,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/5f76bf055dbc776b9aed989a5283c65e?s=256&d=identicon&r=PG&f=1",
+        "display_name": "jobrachem",
+        "link": "https://stackoverflow.com/users/11874713/jobrachem"
+      },
+      "is_answered": true,
+      "view_count": 72,
+      "accepted_answer_id": 72695113,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1655783098,
+      "creation_date": 1655642756,
+      "last_edit_date": 1655709252,
+      "question_id": 72677004,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72677004/why-does-pdoc-in-pre-commit-pass-locally-but-fail-with-files-were-modified-by",
+      "title": "Why does pdoc in pre-commit pass locally, but fail with &quot;files were modified by this hook&quot; in GitHub action?"
+    },
+    {
+      "tags": [
+        "python",
+        "list",
+        "split",
+        "functional-programming",
+        "list-comprehension"
+      ],
+      "owner": {
+        "account_id": 15551037,
+        "reputation": 5571,
+        "user_id": 11218687,
+        "user_type": "registered",
+        "profile_image": "https://lh6.googleusercontent.com/-q9OQOfewRmE/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rf6UauF-z1wrWfcYS38osHELYqJMA/mo/photo.jpg?sz=256",
+        "display_name": "Dmitry Kuzminov",
+        "link": "https://stackoverflow.com/users/11218687/dmitry-kuzminov"
+      },
+      "is_answered": true,
+      "view_count": 63,
+      "accepted_answer_id": 72596845,
+      "answer_count": 3,
+      "score": 1,
+      "last_activity_date": 1655082455,
+      "creation_date": 1655077420,
+      "question_id": 72596623,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72596623/how-to-split-a-list-using-marker-elements",
+      "title": "How to split a list using marker elements?"
+    },
+    {
+      "tags": [
+        "python",
+        "list",
+        "csv",
+        "dictionary"
+      ],
+      "owner": {
+        "account_id": 25539081,
+        "reputation": 39,
+        "user_id": 19325537,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/60036e041936ba4c7ed3209adfd7ec3a?s=256&d=identicon&r=PG",
+        "display_name": "eshtabel3asal",
+        "link": "https://stackoverflow.com/users/19325537/eshtabel3asal"
+      },
+      "is_answered": false,
+      "view_count": 59,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1655069691,
+      "creation_date": 1655061502,
+      "last_edit_date": 1655069401,
+      "question_id": 72595203,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72595203/how-do-you-split-string-elements-of-csv-file-correctly-to-achieve-the-following",
+      "title": "How do you split string elements of csv file correctly to achieve the following list?"
+    },
+    {
+      "tags": [
+        "python",
+        "memory"
+      ],
+      "owner": {
+        "account_id": 4215751,
+        "reputation": 91,
+        "user_id": 3452022,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/69c140fd97de7acee378033507c8913c?s=256&d=identicon&r=PG&f=1",
+        "display_name": "skywalkerdk",
+        "link": "https://stackoverflow.com/users/3452022/skywalkerdk"
+      },
+      "is_answered": true,
+      "view_count": 51,
       "answer_count": 2,
       "score": 0,
-      "last_activity_date": 1657912105,
-      "creation_date": 1657819866,
-      "last_edit_date": 1657912105,
-      "question_id": 72984509,
+      "last_activity_date": 1654889665,
+      "creation_date": 1654883350,
+      "last_edit_date": 1654889665,
+      "question_id": 72578120,
       "content_license": "CC BY-SA 4.0",
-      "link": "https://stackoverflow.com/questions/72984509/change-only-certain-arguments-in-a-class-method-hold-others-constant",
-      "title": "Change only certain arguments in a class/method, hold others constant"
+      "link": "https://stackoverflow.com/questions/72578120/optimal-memory-storage-nested-lists-vs-flat-lists",
+      "title": "Optimal memory storage, nested lists vs. flat lists"
+    },
+    {
+      "tags": [
+        "python",
+        "pandas",
+        "loops"
+      ],
+      "owner": {
+        "account_id": 25501394,
+        "reputation": 21,
+        "user_id": 19294563,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a/AATXAJzYYz7P4FotJZ-eseh3nAb47XZj42vz2q4Y4rAt=k-s256",
+        "display_name": "Jessica warren",
+        "link": "https://stackoverflow.com/users/19294563/jessica-warren"
+      },
+      "is_answered": false,
+      "view_count": 104,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1654718768,
+      "creation_date": 1654648204,
+      "last_edit_date": 1654717762,
+      "question_id": 72538834,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72538834/how-to-do-a-nested-loop-with-2-columns-for-pandas-dataframe-with-counter",
+      "title": "How to do a nested loop with 2 columns for pandas dataframe with counter?"
+    },
+    {
+      "tags": [
+        "python",
+        "python-3.x",
+        "sorting",
+        "operating-system"
+      ],
+      "owner": {
+        "account_id": 21235430,
+        "reputation": 11,
+        "user_id": 17924263,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GhYubRduzfYOZxU_FPZlqLq0eShduG6YEOtSFdwcg=k-s256",
+        "display_name": "Anime Shinjas",
+        "link": "https://stackoverflow.com/users/17924263/anime-shinjas"
+      },
+      "is_answered": true,
+      "view_count": 69,
+      "accepted_answer_id": 72538277,
+      "answer_count": 1,
+      "score": -3,
+      "last_activity_date": 1654642052,
+      "creation_date": 1654511550,
+      "last_edit_date": 1654528366,
+      "question_id": 72516367,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72516367/how-to-rename-files-chronologically-without-changing-their-order",
+      "title": "How to rename files chronologically without changing their order?"
+    },
+    {
+      "tags": [
+        "python",
+        "python-3.x",
+        "asynchronous",
+        "recursion",
+        "fastapi"
+      ],
+      "owner": {
+        "account_id": 1675041,
+        "reputation": 248,
+        "user_id": 1540785,
+        "user_type": "registered",
+        "accept_rate": 79,
+        "profile_image": "https://i.stack.imgur.com/ZasZJ.jpg?s=256&g=1",
+        "display_name": "kanadianDri3",
+        "link": "https://stackoverflow.com/users/1540785/kanadiandri3"
+      },
+      "is_answered": true,
+      "view_count": 37,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1654385760,
+      "creation_date": 1654383228,
+      "question_id": 72503664,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72503664/how-to-optimize-my-performances-using-asynchronous-python-code",
+      "title": "How to optimize my performances, using asynchronous python code"
+    },
+    {
+      "tags": [
+        "python",
+        "video",
+        "ffmpeg",
+        "mp4"
+      ],
+      "owner": {
+        "account_id": 21462686,
+        "reputation": 21,
+        "user_id": 15813131,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GhqgSfQGH35Xh6ox0VQ6a6T_9dy-2TnGMZskI786Tw=k-s256",
+        "display_name": "Palm",
+        "link": "https://stackoverflow.com/users/15813131/palm"
+      },
+      "is_answered": false,
+      "view_count": 137,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1654274031,
+      "creation_date": 1654274031,
+      "question_id": 72492635,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72492635/using-python-and-ffmpeg-to-split-mp4-video-into-chunks-of-few-seconds",
+      "title": "Using python and ffmpeg to split .mp4 video into chunks of few seconds"
+    },
+    {
+      "tags": [
+        "javascript",
+        "python",
+        "image-processing",
+        "input",
+        "google-colaboratory"
+      ],
+      "owner": {
+        "account_id": 7428503,
+        "reputation": 1125,
+        "user_id": 5650267,
+        "user_type": "registered",
+        "accept_rate": 92,
+        "profile_image": "https://www.gravatar.com/avatar/cdd6e06d120ee0c57fe5032ae22ffb91?s=256&d=identicon&r=PG&f=1",
+        "display_name": "havakok",
+        "link": "https://stackoverflow.com/users/5650267/havakok"
+      },
+      "is_answered": false,
+      "view_count": 41,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1652956375,
+      "creation_date": 1652956375,
+      "question_id": 72302988,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72302988/loading-video-frames-into-javascript-in-google-colab",
+      "title": "Loading video frames into javascript in google colab"
+    },
+    {
+      "tags": [
+        "python",
+        "linux",
+        "bash",
+        "shell",
+        "logging"
+      ],
+      "owner": {
+        "account_id": 16340177,
+        "reputation": 41,
+        "user_id": 11801256,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/f0d5dd4370f24a5b009b10ae413a184e?s=256&d=identicon&r=PG&f=1",
+        "display_name": "Sonya  gold",
+        "link": "https://stackoverflow.com/users/11801256/sonya-gold"
+      },
+      "is_answered": false,
+      "view_count": 35,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1652905751,
+      "creation_date": 1652893850,
+      "question_id": 72293360,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72293360/logging-to-a-file-and-adding-timestamps-to-every-single-command-bash-script",
+      "title": "Logging to a file and adding timestamps to every single command bash script"
+    },
+    {
+      "tags": [
+        "python",
+        "machine-learning",
+        "keras",
+        "vgg-net",
+        "image-classification"
+      ],
+      "owner": {
+        "account_id": 24900641,
+        "reputation": 3,
+        "user_id": 18771355,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/f8fa26d43772b7157d316a7e962dfafc?s=256&d=identicon&r=PG",
+        "display_name": "Willy Lutz",
+        "link": "https://stackoverflow.com/users/18771355/willy-lutz"
+      },
+      "is_answered": true,
+      "view_count": 55,
+      "accepted_answer_id": 72256297,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1652698253,
+      "creation_date": 1652686658,
+      "last_edit_date": 1652686740,
+      "question_id": 72255640,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72255640/keras-vgg19-node-equal-incompatible-shapes-64-7-7-vs-64-1",
+      "title": "Keras VGG19: Node: &#39;Equal&#39; Incompatible shapes: [64,7,7] vs. [64,1]"
+    },
+    {
+      "tags": [
+        "python",
+        "list",
+        "dataframe",
+        "numpy",
+        "combinations"
+      ],
+      "owner": {
+        "account_id": 24940360,
+        "reputation": 9,
+        "user_id": 18806340,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/55a29a67a974c11bc4fceaf872ea6f9d?s=256&d=identicon&r=PG",
+        "display_name": "Rask",
+        "link": "https://stackoverflow.com/users/18806340/rask"
+      },
+      "is_answered": true,
+      "view_count": 33,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1652391373,
+      "creation_date": 1652387002,
+      "question_id": 72221692,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72221692/combinations-divided-into-rows-with-no-repetition-of-elements",
+      "title": "Combinations divided into rows with no repetition of elements"
+    },
+    {
+      "tags": [
+        "python",
+        "list",
+        "split"
+      ],
+      "owner": {
+        "account_id": 25270267,
+        "reputation": 1,
+        "user_id": 19099687,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/148507c85fb07fab29d87e1ac022e6c5?s=256&d=identicon&r=PG",
+        "display_name": "Ab20",
+        "link": "https://stackoverflow.com/users/19099687/ab20"
+      },
+      "is_answered": true,
+      "view_count": 46,
+      "answer_count": 3,
+      "score": 0,
+      "last_activity_date": 1652399440,
+      "creation_date": 1652338359,
+      "last_edit_date": 1652369667,
+      "question_id": 72211216,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72211216/how-do-i-split-certain-element-within-a-list-to-create-another-list-in-python",
+      "title": "How do I split certain element within a list to create another list in python?"
+    },
+    {
+      "tags": [
+        "python",
+        "python-3.x",
+        "tensorflow",
+        "machine-learning",
+        "keras"
+      ],
+      "owner": {
+        "account_id": 20676101,
+        "reputation": 1,
+        "user_id": 15180668,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/def5ad8a2350a78b67e41851c0639d35?s=256&d=identicon&r=PG&f=1",
+        "display_name": "SamirSL",
+        "link": "https://stackoverflow.com/users/15180668/samirsl"
+      },
+      "is_answered": false,
+      "view_count": 439,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1652370430,
+      "creation_date": 1652140121,
+      "last_edit_date": 1652169935,
+      "question_id": 72179285,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72179285/typeerror-unable-to-convert-function-return-value-to-a-python-type-the-signatu",
+      "title": "TypeError: Unable to convert function return value to a Python type! The signature was () -&gt; handle anaconda spyder"
+    },
+    {
+      "tags": [
+        "python",
+        "dataframe",
+        "apache-spark",
+        "dataset"
+      ],
+      "owner": {
+        "account_id": 25247659,
+        "reputation": 13,
+        "user_id": 19080774,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GhTkOSboqMt8vFSrDbH8q-iqbLMGmHW7hPbFPxD2A=k-s256",
+        "display_name": "Everton Santos",
+        "link": "https://stackoverflow.com/users/19080774/everton-santos"
+      },
+      "is_answered": false,
+      "view_count": 25,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1652184179,
+      "creation_date": 1652138804,
+      "last_edit_date": 1652184179,
+      "question_id": 72179173,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72179173/questions-about-how-to-split-and-assign-values-in-a-list-python-spark",
+      "title": "Questions about how to split and assign values ​in a list (Python/Spark)"
+    },
+    {
+      "tags": [
+        "python",
+        "list",
+        "tuples"
+      ],
+      "owner": {
+        "account_id": 25016450,
+        "reputation": 11,
+        "user_id": 18875522,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GjvAobeDt7zJ7x7TcBJ4H9jtFQ-_MDAIDv5S2hMxg=k-s256",
+        "display_name": "James Norman",
+        "link": "https://stackoverflow.com/users/18875522/james-norman"
+      },
+      "is_answered": true,
+      "view_count": 42,
+      "accepted_answer_id": 72128264,
+      "answer_count": 1,
+      "score": -2,
+      "last_activity_date": 1651758346,
+      "creation_date": 1651757943,
+      "last_edit_date": 1651757979,
+      "question_id": 72128170,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72128170/how-to-split-string-that-is-a-part-of-a-tuple-list-in-python",
+      "title": "How to split string that is a part of a tuple list in python"
+    },
+    {
+      "tags": [
+        "python",
+        "pandas"
+      ],
+      "owner": {
+        "account_id": 25119609,
+        "reputation": 21,
+        "user_id": 18968118,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a/AATXAJxre84vY5ewbC5Wg19GXieZ79OR4s7defiV94Q=k-s256",
+        "display_name": "nick_c",
+        "link": "https://stackoverflow.com/users/18968118/nick-c"
+      },
+      "is_answered": true,
+      "view_count": 30,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1651604388,
+      "creation_date": 1651603315,
+      "last_edit_date": 1651603794,
+      "question_id": 72104041,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72104041/pandas-python-splitting-data-into-duplicated-rows-based-on-commas-and-dashes",
+      "title": "Pandas/Python: Splitting data into duplicated rows based on commas and dashes"
+    },
+    {
+      "tags": [
+        "python",
+        "python-3.x",
+        "data-structures"
+      ],
+      "owner": {
+        "account_id": 18019804,
+        "reputation": 11,
+        "user_id": 13097361,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/-C4Qdw4RIwq8/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nA8g1nNrDwsukWk9ALR0eiN-8PCBQ/photo.jpg?sz=256",
+        "display_name": "As22",
+        "link": "https://stackoverflow.com/users/13097361/as22"
+      },
+      "is_answered": false,
+      "view_count": 33,
+      "answer_count": 0,
+      "score": 1,
+      "last_activity_date": 1651185068,
+      "creation_date": 1651178484,
+      "last_edit_date": 1651185068,
+      "question_id": 72049982,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72049982/split-a-list-of-dicts-containing-a-count-value-into-n-nodes-such-that-the-nodes",
+      "title": "Split a list of dicts containing a count value into n nodes such that the nodes have equal or close to equal sums of count"
+    },
+    {
+      "tags": [
+        "python",
+        "pandas",
+        "indexing",
+        "rows"
+      ],
+      "owner": {
+        "account_id": 25119609,
+        "reputation": 21,
+        "user_id": 18968118,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a/AATXAJxre84vY5ewbC5Wg19GXieZ79OR4s7defiV94Q=k-s256",
+        "display_name": "nick_c",
+        "link": "https://stackoverflow.com/users/18968118/nick-c"
+      },
+      "is_answered": true,
+      "view_count": 40,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1651093279,
+      "creation_date": 1651089296,
+      "question_id": 72034573,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72034573/pandas-splitting-a-non-numeric-identifier-code-into-multiple-rows",
+      "title": "Pandas: Splitting a non-numeric identifier code into multiple rows"
+    },
+    {
+      "tags": [
+        "python",
+        "string",
+        "parsing"
+      ],
+      "owner": {
+        "account_id": 23708940,
+        "reputation": 13,
+        "user_id": 17731068,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/3c4994b8c54c0c29f3d1ebaff287ed4f?s=256&d=identicon&r=PG",
+        "display_name": "Raymond",
+        "link": "https://stackoverflow.com/users/17731068/raymond"
+      },
+      "is_answered": true,
+      "view_count": 49,
+      "accepted_answer_id": 72033866,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1651085154,
+      "creation_date": 1650970615,
+      "last_edit_date": 1650974169,
+      "question_id": 72012752,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72012752/how-to-extract-multiple-specific-string-lines-from-another-string",
+      "title": "How to extract multiple specific string lines from another string?"
+    },
+    {
+      "tags": [
+        "python",
+        "powershell",
+        "video",
+        "ffmpeg"
+      ],
+      "owner": {
+        "account_id": 180623,
+        "reputation": 5813,
+        "user_id": 414063,
+        "user_type": "registered",
+        "accept_rate": 79,
+        "profile_image": "https://www.gravatar.com/avatar/5b1e3128b33fa994d6c6640fb49898da?s=256&d=identicon&r=PG",
+        "display_name": "jokoon",
+        "link": "https://stackoverflow.com/users/414063/jokoon"
+      },
+      "is_answered": true,
+      "view_count": 184,
+      "accepted_answer_id": 71993396,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1650896977,
+      "creation_date": 1650836909,
+      "last_edit_date": 1650884309,
+      "question_id": 71992615,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71992615/i-have-a-ffmpeg-command-to-concatenate-300-videos-of-different-formats-what-is",
+      "title": "I have a ffmpeg command to concatenate 300+ videos of different formats. What is the proper syntax for the concat complex filter?"
+    },
+    {
+      "tags": [
+        "python"
+      ],
+      "owner": {
+        "account_id": 25074780,
+        "reputation": 13,
+        "user_id": 18928311,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GiU1edvm8wNM3n5N4rZViOZ9TIWsco0yHtnfomCKw=k-s256",
+        "display_name": "Kashmiryy",
+        "link": "https://stackoverflow.com/users/18928311/kashmiryy"
+      },
+      "is_answered": true,
+      "view_count": 57,
+      "accepted_answer_id": 71987685,
+      "answer_count": 1,
+      "score": -1,
+      "last_activity_date": 1650936498,
+      "creation_date": 1650796166,
+      "question_id": 71987525,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71987525/how-can-i-make-a-loop-output-to-two-different-lists",
+      "title": "How can I make a loop output to two different lists?"
+    },
+    {
+      "tags": [
+        "python",
+        "regex"
+      ],
+      "owner": {
+        "account_id": 24050618,
+        "reputation": 1,
+        "user_id": 18029155,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GigJAYimNJHacaQl3-44l56o0Hyi4pldbnSsc-8LQ=k-s256",
+        "display_name": "Cloudy",
+        "link": "https://stackoverflow.com/users/18029155/cloudy"
+      },
+      "is_answered": true,
+      "view_count": 34,
+      "answer_count": 2,
+      "score": -2,
+      "last_activity_date": 1652377746,
+      "creation_date": 1650663144,
+      "last_edit_date": 1652377746,
+      "question_id": 71974853,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71974853/python-how-to-split-a-single-string-in-a-list-into-various-strings-by-splitting",
+      "title": "Python how to split a single string in a list, into various strings by splitting it with multiple delimiters"
+    },
+    {
+      "tags": [
+        "python",
+        "string",
+        "split",
+        "tokenize"
+      ],
+      "owner": {
+        "account_id": 23063700,
+        "reputation": 43,
+        "user_id": 17178435,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/7b887c35a8feb96385a21a1398544cf8?s=256&d=identicon&r=PG",
+        "display_name": "U_11",
+        "link": "https://stackoverflow.com/users/17178435/u-11"
+      },
+      "is_answered": false,
+      "view_count": 50,
+      "answer_count": 1,
+      "score": 2,
+      "last_activity_date": 1650620539,
+      "creation_date": 1650618352,
+      "question_id": 71966156,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71966156/tokenize-individual-sentences-from-a-string-of-sentences",
+      "title": "tokenize individual sentences from a string of sentences"
+    },
+    {
+      "tags": [
+        "python",
+        "string",
+        "subprocess",
+        "literals"
+      ],
+      "owner": {
+        "account_id": 7594706,
+        "reputation": 1,
+        "user_id": 5761203,
+        "user_type": "registered",
+        "profile_image": "https://i.stack.imgur.com/ZZemb.jpg?s=256&g=1",
+        "display_name": "NGC6543",
+        "link": "https://stackoverflow.com/users/5761203/ngc6543"
+      },
+      "is_answered": false,
+      "view_count": 65,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1650329933,
+      "creation_date": 1650327580,
+      "last_edit_date": 1650329933,
+      "question_id": 71918340,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71918340/using-string-with-literal-string-interpolation-as-an-argument-to-python-subproce",
+      "title": "Using string with literal string interpolation as an argument to python subprocess"
+    },
+    {
+      "tags": [
+        "python",
+        "python-3.x",
+        "analytics",
+        "metrics"
+      ],
+      "owner": {
+        "account_id": 18729052,
+        "reputation": 59,
+        "user_id": 13654943,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/264f516ef99746ecff4222108dc5ed95?s=256&d=identicon&r=PG&f=1",
+        "display_name": "CPhillips",
+        "link": "https://stackoverflow.com/users/13654943/cphillips"
+      },
+      "is_answered": true,
+      "view_count": 44,
+      "accepted_answer_id": 71739773,
+      "answer_count": 3,
+      "score": 0,
+      "last_activity_date": 1649086092,
+      "creation_date": 1649085523,
+      "last_edit_date": 1649085756,
+      "question_id": 71739710,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71739710/split-python-list-field-into-two-and-leave-them-in-place",
+      "title": "Split Python list field into two and leave them in place"
+    },
+    {
+      "tags": [
+        "python",
+        "loops",
+        "python-click"
+      ],
+      "owner": {
+        "account_id": 21701266,
+        "reputation": 83,
+        "user_id": 16014407,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/553ccbc8bd2c0613f5148902114e3bbc?s=256&d=identicon&r=PG&f=1",
+        "display_name": "Luis",
+        "link": "https://stackoverflow.com/users/16014407/luis"
+      },
+      "is_answered": true,
+      "view_count": 61,
+      "accepted_answer_id": 71660049,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1648550578,
+      "creation_date": 1648547479,
+      "last_edit_date": 1648549509,
+      "question_id": 71659867,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71659867/elegant-way-of-integrating-for-loop-with-a-flag-in-python",
+      "title": "Elegant way of integrating for loop with a flag in Python"
+    },
+    {
+      "tags": [
+        "python",
+        "pandas",
+        "list"
+      ],
+      "owner": {
+        "account_id": 24637321,
+        "reputation": 13,
+        "user_id": 18535821,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GgoNitwGTlgFCc4eJ-dkEn0S_hrhgBI2q9GXUeL4g=k-s256",
+        "display_name": "Navarone",
+        "link": "https://stackoverflow.com/users/18535821/navarone"
+      },
+      "is_answered": true,
+      "view_count": 37,
+      "accepted_answer_id": 71565819,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1647910957,
+      "creation_date": 1647910562,
+      "question_id": 71565779,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71565779/how-to-split-one-string-element-in-a-list-into-two-in-python",
+      "title": "How to split one string element in a list into two in Python?"
+    },
+    {
+      "tags": [
+        "python"
+      ],
+      "owner": {
+        "account_id": 16996947,
+        "reputation": 25,
+        "user_id": 12295139,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/1478f53b73fc0f0b0993db658b0db735?s=256&d=identicon&r=PG&f=1",
+        "display_name": "MoosyLager",
+        "link": "https://stackoverflow.com/users/12295139/moosylager"
+      },
+      "is_answered": true,
+      "view_count": 40,
+      "closed_date": 1647897102,
+      "accepted_answer_id": 71564076,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1647900559,
+      "creation_date": 1647895915,
+      "last_edit_date": 1647900559,
+      "question_id": 71563951,
+      "link": "https://stackoverflow.com/questions/71563951/how-to-assign-two-function-return-values-to-two-variables-and-use-them-in-the-sa",
+      "closed_reason": "Duplicate",
+      "title": "How to assign two function return values to two variables and use them in the same line?"
+    },
+    {
+      "tags": [
+        "python",
+        "python-3.x",
+        "list"
+      ],
+      "owner": {
+        "account_id": 24616477,
+        "reputation": 3,
+        "user_id": 18517419,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/80aab9fdde778cee2b8740ebe397b3f5?s=256&d=identicon&r=PG",
+        "display_name": "Stephen Alkaline",
+        "link": "https://stackoverflow.com/users/18517419/stephen-alkaline"
+      },
+      "is_answered": true,
+      "view_count": 70,
+      "accepted_answer_id": 71545447,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1647850621,
+      "creation_date": 1647746489,
+      "last_edit_date": 1647767893,
+      "question_id": 71543786,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71543786/changing-how-letters-show-when-there-are-duplications-in-recreating-wordle",
+      "title": "Changing how letters show when there are duplications in recreating Wordle"
+    },
+    {
+      "tags": [
+        "python",
+        "list",
+        "tuples"
+      ],
+      "owner": {
+        "account_id": 8682338,
+        "reputation": 91,
+        "user_id": 8769304,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/12a765dab40bbaefb50ff4a00e004cac?s=256&d=identicon&r=PG&f=1",
+        "display_name": "GTOgod",
+        "link": "https://stackoverflow.com/users/8769304/gtogod"
+      },
+      "is_answered": true,
+      "view_count": 60,
+      "accepted_answer_id": 71543425,
+      "answer_count": 4,
+      "score": 0,
+      "last_activity_date": 1647741498,
+      "creation_date": 1647739882,
+      "question_id": 71543385,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71543385/how-to-split-a-list-based-on-tuple-content-in-python",
+      "title": "How to split a list based on tuple content in Python"
+    },
+    {
+      "tags": [
+        "python",
+        "list"
+      ],
+      "owner": {
+        "account_id": 10383148,
+        "reputation": 7488,
+        "user_id": 7657180,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/6c0ee64d62bb9980080e6881a20a15fc?s=256&d=identicon&r=PG",
+        "display_name": "YasserKhalil",
+        "link": "https://stackoverflow.com/users/7657180/yasserkhalil"
+      },
+      "is_answered": true,
+      "view_count": 39,
+      "accepted_answer_id": 71542287,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1647729035,
+      "creation_date": 1647725288,
+      "last_edit_date": 1647729035,
+      "question_id": 71542240,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71542240/create-sublist-from-main-python-list-by-condition",
+      "title": "Create sublist from main python list by condition"
+    },
+    {
+      "tags": [
+        "python",
+        "numpy"
+      ],
+      "owner": {
+        "account_id": 18171557,
+        "reputation": 126,
+        "user_id": 13221130,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GizUaupKOup0HUTBQA-HBbiw3poRQweCVzAQd2lEw=k-s256",
+        "display_name": "ProgrX",
+        "link": "https://stackoverflow.com/users/13221130/progrx"
+      },
+      "is_answered": true,
+      "view_count": 76,
+      "accepted_answer_id": 71514403,
+      "answer_count": 3,
+      "score": 0,
+      "last_activity_date": 1647528765,
+      "creation_date": 1647525596,
+      "last_edit_date": 1647527346,
+      "question_id": 71513618,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71513618/split-a-list-into-smaller-lists-depending-on-a-certain-value",
+      "title": "Split a list into smaller lists depending on a certain value"
+    },
+    {
+      "tags": [
+        "python",
+        "multithreading",
+        "cython",
+        "python-extensions"
+      ],
+      "owner": {
+        "account_id": 11485827,
+        "reputation": 1,
+        "user_id": 8418540,
+        "user_type": "registered",
+        "profile_image": "https://i.stack.imgur.com/XCwLL.png?s=256&g=1",
+        "display_name": "tanjuntao",
+        "link": "https://stackoverflow.com/users/8418540/tanjuntao"
+      },
+      "is_answered": false,
+      "view_count": 45,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1646960184,
+      "creation_date": 1646960184,
+      "question_id": 71432501,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71432501/how-can-i-use-gmpy2s-powmod-function-within-cython-parallel-prange",
+      "title": "How can I use gmpy2&#39;s powmod function within cython.parallel.prange?"
+    },
+    {
+      "tags": [
+        "javascript",
+        "python",
+        "jquery",
+        "ajax",
+        "flask"
+      ],
+      "owner": {
+        "account_id": 14037860,
+        "reputation": 17,
+        "user_id": 10140113,
+        "user_type": "registered",
+        "profile_image": "https://lh4.googleusercontent.com/-nH5EsvyNXGk/AAAAAAAAAAI/AAAAAAAAAbw/-sP0qYxagd8/photo.jpg?sz=256",
+        "display_name": "John Seong",
+        "link": "https://stackoverflow.com/users/10140113/john-seong"
+      },
+      "is_answered": true,
+      "view_count": 131,
+      "accepted_answer_id": 71531952,
+      "answer_count": 1,
+      "score": -1,
+      "last_activity_date": 1647629977,
+      "creation_date": 1646420570,
+      "last_edit_date": 1647629977,
+      "question_id": 71356126,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71356126/jquery-flask-bad-request-400-while-trying-to-send-a-javascript-variable-to-a",
+      "title": "jQUERY, FLASK: Bad request (400) while trying to send a Javascript variable to a Python script"
+    },
+    {
+      "tags": [
+        "python",
+        "image",
+        "tkinter",
+        "button",
+        "status"
+      ],
+      "owner": {
+        "account_id": 23687362,
+        "reputation": 1,
+        "user_id": 17834946,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GhnT54nW_ovJjQoujF1T8jBZDlrqbCEr7xEL007=k-s256",
+        "display_name": "John Doe",
+        "link": "https://stackoverflow.com/users/17834946/john-doe"
+      },
+      "is_answered": false,
+      "view_count": 56,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1650605444,
+      "creation_date": 1646416861,
+      "question_id": 71355494,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71355494/my-python-tkinter-buttons-are-updating-too-quickly-after-the-wrong-comparison-is",
+      "title": "My python tkinter buttons are updating too quickly after the wrong comparison is made"
+    },
+    {
+      "tags": [
+        "python"
+      ],
+      "owner": {
+        "account_id": 1058066,
+        "reputation": 3759,
+        "user_id": 1060339,
+        "user_type": "registered",
+        "accept_rate": 73,
+        "profile_image": "https://i.stack.imgur.com/IIK04.jpg?s=256&g=1",
+        "display_name": "trubliphone",
+        "link": "https://stackoverflow.com/users/1060339/trubliphone"
+      },
+      "is_answered": true,
+      "view_count": 78,
+      "accepted_answer_id": 71312276,
+      "answer_count": 4,
+      "score": 1,
+      "last_activity_date": 1646157961,
+      "creation_date": 1646154262,
+      "question_id": 71312125,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71312125/separate-a-dictionary-of-lists-into-chunks-in-python",
+      "title": "separate a dictionary of lists into chunks in Python"
+    },
+    {
+      "tags": [
+        "python",
+        "function",
+        "csv",
+        "dictionary",
+        "split"
+      ],
+      "owner": {
+        "account_id": 24187589,
+        "reputation": 3,
+        "user_id": 18147198,
+        "user_type": "registered",
+        "profile_image": "https://i.stack.imgur.com/kvlAO.jpg?s=256&g=1",
+        "display_name": "Jody Park",
+        "link": "https://stackoverflow.com/users/18147198/jody-park"
+      },
+      "is_answered": false,
+      "view_count": 52,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1646152113,
+      "creation_date": 1646151350,
+      "question_id": 71311511,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/71311511/creating-a-dictionary-from-a-csv-file-in-python-by-using-own-function",
+      "title": "Creating a dictionary from a csv file in Python by using own function"
     }
   ]

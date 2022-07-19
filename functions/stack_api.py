@@ -3,7 +3,7 @@ from stackapi import StackAPI
 
 
 def get_search_results(q_text, tag, number_of_results, test_json=None):
-    if number_of_results > 50:
+    if int(number_of_results) > 50:
         number_of_results = 50
 
     if test_json is not None:
@@ -23,7 +23,7 @@ def get_search_results(q_text, tag, number_of_results, test_json=None):
 
 
 def get_most_voted_results(tag, number_of_results, test_json=None):
-    if number_of_results > 50:
+    if int(number_of_results) > 50:
         number_of_results = 50
 
     if test_json is not None:
