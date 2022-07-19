@@ -1,0 +1,544 @@
+[
+    {
+      "tags": [
+        "python",
+        "pandas",
+        "list",
+        "for-loop",
+        "random"
+      ],
+      "owner": {
+        "account_id": 24704688,
+        "reputation": 1,
+        "user_id": 18595640,
+        "user_type": "registered",
+        "profile_image": "https://graph.facebook.com/1989698871202527/picture?type=large",
+        "display_name": "Francesco Calderone",
+        "link": "https://stackoverflow.com/users/18595640/francesco-calderone"
+      },
+      "is_answered": false,
+      "view_count": 37,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1658217523,
+      "creation_date": 1658215825,
+      "last_edit_date": 1658217523,
+      "question_id": 73032787,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/73032787/how-to-get-unique-random-values-from-a-list-within-a-for-loop",
+      "title": "how to get unique random values from a list within a for loop?"
+    },
+    {
+      "tags": [
+        "python"
+      ],
+      "owner": {
+        "account_id": 25841735,
+        "reputation": 1,
+        "user_id": 19577187,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AFdZucpINOax5hG7736p9kpqheFp2Q96YoBE9KyepvAc=k-s256",
+        "display_name": "Akshay Jaiswal",
+        "link": "https://stackoverflow.com/users/19577187/akshay-jaiswal"
+      },
+      "is_answered": false,
+      "view_count": 20,
+      "closed_date": 1658215624,
+      "answer_count": 0,
+      "score": -4,
+      "last_activity_date": 1658216025,
+      "creation_date": 1658214728,
+      "last_edit_date": 1658216025,
+      "question_id": 73032583,
+      "link": "https://stackoverflow.com/questions/73032583/how-to-debug-the-code-in-python-spyder-and-how-to-get-the-error",
+      "closed_reason": "Not suitable for this site",
+      "title": "How to debug the code in python (spyder) and how to get the error"
+    },
+    {
+      "tags": [
+        "python",
+        "flask",
+        "monitoring"
+      ],
+      "owner": {
+        "account_id": 7315160,
+        "reputation": 196,
+        "user_id": 5573074,
+        "user_type": "registered",
+        "profile_image": "https://graph.facebook.com/10102695565342245/picture?type=large",
+        "display_name": "David Bernat",
+        "link": "https://stackoverflow.com/users/5573074/david-bernat"
+      },
+      "is_answered": false,
+      "view_count": 11,
+      "answer_count": 0,
+      "score": -1,
+      "last_activity_date": 1658201976,
+      "creation_date": 1658201976,
+      "question_id": 73030834,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/73030834/framework-for-building-flask-process-monitoring-with-local-database",
+      "title": "Framework for building Flask process monitoring with local database?"
+    },
+    {
+      "tags": [
+        "python",
+        "pandas",
+        "dataframe"
+      ],
+      "owner": {
+        "account_id": 25600406,
+        "reputation": 1,
+        "user_id": 19375510,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/617a80006d72dfca3f7cc6ab7fbada5c?s=256&d=identicon&r=PG",
+        "display_name": "Eugenio5",
+        "link": "https://stackoverflow.com/users/19375510/eugenio5"
+      },
+      "is_answered": true,
+      "view_count": 23,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1658182120,
+      "creation_date": 1658179982,
+      "question_id": 73028870,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/73028870/in-python-pandas-how-do-you-eliminate-rows-of-data-that-fail-to-meet-a-conditio",
+      "title": "In python pandas, How do you eliminate rows of data that fail to meet a condition of grouped data?"
+    },
+    {
+      "tags": [
+        "python",
+        "opencv",
+        "deep-learning",
+        "pyinstaller",
+        "relative-path"
+      ],
+      "owner": {
+        "account_id": 25838659,
+        "reputation": 11,
+        "user_id": 19574643,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/b63f0f37601656dfea9f39e41643d24e?s=256&d=identicon&r=PG",
+        "display_name": "Chaitanya Sethi",
+        "link": "https://stackoverflow.com/users/19574643/chaitanya-sethi"
+      },
+      "is_answered": false,
+      "view_count": 26,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1658214528,
+      "creation_date": 1658174893,
+      "last_edit_date": 1658209312,
+      "question_id": 73028030,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/73028030/deep-learning-model-gives-inaccurate-results-in-executable-file-program-unlike-t",
+      "title": "Deep Learning Model gives inaccurate results in executable file program unlike the same script in python, messing up predictions"
+    },
+    {
+      "tags": [
+        "python",
+        "beautifulsoup"
+      ],
+      "owner": {
+        "account_id": 21763756,
+        "reputation": 47,
+        "user_id": 16067945,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/ffb4c21478f29432997f601c40178ae5?s=256&d=identicon&r=PG&f=1",
+        "display_name": "Diana Mele",
+        "link": "https://stackoverflow.com/users/16067945/diana-mele"
+      },
+      "is_answered": true,
+      "view_count": 21,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1658160120,
+      "creation_date": 1658159119,
+      "question_id": 73025076,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/73025076/scrape-information-with-beautifulsoup-4-when-there-is-not-a-class",
+      "title": "Scrape information with BeautifulSoup 4 when there is not a &quot;class&quot;"
+    },
+    {
+      "tags": [
+        "python",
+        "pandas",
+        "matplotlib",
+        "pyspark"
+      ],
+      "owner": {
+        "account_id": 18134871,
+        "reputation": 21,
+        "user_id": 13189547,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/10090a2383c07cb2ab1a454cd2bd0359?s=256&d=identicon&r=PG&f=1",
+        "display_name": "Dimpu",
+        "link": "https://stackoverflow.com/users/13189547/dimpu"
+      },
+      "is_answered": false,
+      "view_count": 13,
+      "answer_count": 0,
+      "score": -1,
+      "last_activity_date": 1658107096,
+      "creation_date": 1658107096,
+      "question_id": 73016465,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/73016465/creating-plot-graph-after-converting-pyspark-dataframe-to-pandas-dataframe",
+      "title": "Creating plot/graph after converting PySpark dataframe to Pandas dataframe"
+    },
+    {
+      "tags": [
+        "python",
+        "selenium",
+        "for-loop",
+        "range",
+        "nested-for-loop"
+      ],
+      "owner": {
+        "account_id": 20700152,
+        "reputation": 3,
+        "user_id": 15199444,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GgxK8L_cPpd3ns-PkSxaJ0iGZeGnlhv1anDjeJfag=k-s256",
+        "display_name": "Temidayo Amure",
+        "link": "https://stackoverflow.com/users/15199444/temidayo-amure"
+      },
+      "is_answered": true,
+      "view_count": 27,
+      "accepted_answer_id": 73017563,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1658121042,
+      "creation_date": 1658104411,
+      "question_id": 73016304,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/73016304/how-can-i-iterate-through-rows-of-web-form-using-selenium",
+      "title": "How can I iterate through rows of web form using selenium?"
+    },
+    {
+      "tags": [
+        "python",
+        "class",
+        "tkinter",
+        "customtkinter"
+      ],
+      "owner": {
+        "account_id": 19177921,
+        "reputation": 91,
+        "user_id": 14010274,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GjgJIbiPREr4YTFjNZihsw2oV1pRJxieI7JlyuVOA=k-s256",
+        "display_name": "Jared McCallister",
+        "link": "https://stackoverflow.com/users/14010274/jared-mccallister"
+      },
+      "is_answered": false,
+      "view_count": 24,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1658097900,
+      "creation_date": 1658097900,
+      "question_id": 73015863,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/73015863/python-tkinter-breaking-buttons-labels-comboboxes-into-separate-files",
+      "title": "Python TKinter - breaking buttons, labels, comboboxes into separate files"
+    },
+    {
+      "tags": [
+        "python",
+        "json",
+        "sqlite"
+      ],
+      "owner": {
+        "account_id": 22868075,
+        "reputation": 1,
+        "user_id": 17011545,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a/AATXAJyVRLG7G-O8Jsfuz6G9JCJcIxvDCb5Qnl2RRJ9o=k-s256",
+        "display_name": "Will Chiu",
+        "link": "https://stackoverflow.com/users/17011545/will-chiu"
+      },
+      "is_answered": false,
+      "view_count": 27,
+      "answer_count": 0,
+      "score": -2,
+      "last_activity_date": 1658090687,
+      "creation_date": 1658090687,
+      "question_id": 73015232,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/73015232/cannot-seem-to-get-upsert-syntax-to-work-in-python",
+      "title": "Cannot seem to get UPSERT syntax to work in Python?"
+    },
+    {
+      "tags": [
+        "python"
+      ],
+      "owner": {
+        "account_id": 24906836,
+        "reputation": 1,
+        "user_id": 18776803,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/698c7f076d4f7991aa0fc54f92aaef45?s=256&d=identicon&r=PG",
+        "display_name": "pcmm23",
+        "link": "https://stackoverflow.com/users/18776803/pcmm23"
+      },
+      "is_answered": false,
+      "view_count": 43,
+      "closed_date": 1658205103,
+      "answer_count": 0,
+      "score": -3,
+      "last_activity_date": 1658081804,
+      "creation_date": 1658081804,
+      "question_id": 73014261,
+      "link": "https://stackoverflow.com/questions/73014261/book-exercise-43",
+      "closed_reason": "Needs more focus",
+      "title": "Book exercise 43"
+    },
+    {
+      "tags": [
+        "python",
+        "machine-learning",
+        "keras"
+      ],
+      "owner": {
+        "account_id": 12942469,
+        "reputation": 51,
+        "user_id": 9357817,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/04fe4fcad92eaff612c8ce3ff8862d79?s=256&d=identicon&r=PG&f=1",
+        "display_name": "Vikas M",
+        "link": "https://stackoverflow.com/users/9357817/vikas-m"
+      },
+      "is_answered": false,
+      "view_count": 30,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1658130744,
+      "creation_date": 1657993634,
+      "last_edit_date": 1658130744,
+      "question_id": 73006447,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/73006447/in0-and-in1-must-have-compatible-batch-dimensions-when-using-predict-on-mod",
+      "title": "In[0] and In[1] must have compatible batch dimensions when using .predict on model"
+    },
+    {
+      "tags": [
+        "python",
+        "pandas",
+        "dataframe"
+      ],
+      "owner": {
+        "account_id": 15015961,
+        "reputation": 11,
+        "user_id": 10838971,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/a64b45d5d00cf556b160c9ed98e4ba44?s=256&d=identicon&r=PG&f=1",
+        "display_name": "LohTC",
+        "link": "https://stackoverflow.com/users/10838971/lohtc"
+      },
+      "is_answered": true,
+      "view_count": 32,
+      "accepted_answer_id": 73003287,
+      "answer_count": 3,
+      "score": 0,
+      "last_activity_date": 1658031076,
+      "creation_date": 1657962306,
+      "last_edit_date": 1658031076,
+      "question_id": 73002908,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/73002908/how-to-use-the-value-in-a-variable-as-name-to-create-a-panda-data-frame",
+      "title": "How to use the value in a variable as name to create a panda data frame?"
+    },
+    {
+      "tags": [
+        "python",
+        "excel",
+        "pandas",
+        "directory"
+      ],
+      "owner": {
+        "account_id": 18772156,
+        "reputation": 33,
+        "user_id": 13769033,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/56e2bea8358653daf2c4363242816308?s=256&d=identicon&r=PG",
+        "display_name": "simone100",
+        "link": "https://stackoverflow.com/users/13769033/simone100"
+      },
+      "is_answered": false,
+      "view_count": 35,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1657948027,
+      "creation_date": 1657895449,
+      "last_edit_date": 1657948027,
+      "question_id": 72995597,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72995597/assign-cell-value-based-on-the-part-of-the-name-of-a-file-in-a-folder-with-pytho",
+      "title": "Assign cell value based on the part of the name of a file in a folder with Python in Excel"
+    },
+    {
+      "tags": [
+        "python",
+        "pandas",
+        "tensorflow",
+        "machine-learning",
+        "keras"
+      ],
+      "owner": {
+        "account_id": 1520139,
+        "reputation": 1268,
+        "user_id": 1420026,
+        "user_type": "registered",
+        "accept_rate": 76,
+        "profile_image": "https://www.gravatar.com/avatar/35b55a83e8fe4c44e4bc67f4611f81ed?s=256&d=identicon&r=PG",
+        "display_name": "Muaz Usmani",
+        "link": "https://stackoverflow.com/users/1420026/muaz-usmani"
+      },
+      "is_answered": false,
+      "view_count": 28,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1657893660,
+      "creation_date": 1657891430,
+      "last_edit_date": 1657893660,
+      "question_id": 72994720,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72994720/optimizing-data-pipeline-for-a-large-time-series-dataset",
+      "title": "Optimizing data pipeline for a large time series dataset"
+    },
+    {
+      "tags": [
+        "python",
+        "path",
+        "directory-structure"
+      ],
+      "owner": {
+        "account_id": 25760781,
+        "reputation": 1,
+        "user_id": 19556491,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AFdZucqZg4IQYsMeVoSyoPHxhqvu91Sm_DkAp59n_3Da6A=k-s256",
+        "display_name": "bps",
+        "link": "https://stackoverflow.com/users/19556491/bps"
+      },
+      "is_answered": false,
+      "view_count": 24,
+      "answer_count": 0,
+      "score": -1,
+      "last_activity_date": 1657890007,
+      "creation_date": 1657890007,
+      "question_id": 72994401,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72994401/how-to-store-file-paths-efficiently-python",
+      "title": "How to store file paths efficiently? python"
+    },
+    {
+      "tags": [
+        "python",
+        "python-3.x",
+        "pyqt",
+        "pyqt5"
+      ],
+      "owner": {
+        "account_id": 25808039,
+        "reputation": 1,
+        "user_id": 19549286,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AFdZucoVF21Dbv2LmaNwiS62cqxKUiaVYhehgtL2702q=k-s256",
+        "display_name": "Swarnim Burnwal",
+        "link": "https://stackoverflow.com/users/19549286/swarnim-burnwal"
+      },
+      "is_answered": false,
+      "view_count": 24,
+      "answer_count": 0,
+      "score": -1,
+      "last_activity_date": 1657951536,
+      "creation_date": 1657887114,
+      "last_edit_date": 1657951536,
+      "question_id": 72993810,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72993810/trying-to-make-a-jarvis-using-pyqt5-main-window-gui-works-but-jarvis-doesnt-spe",
+      "title": "trying to make a jarvis using pyqt5 main window gui works but jarvis doesn&#39;t speak"
+    },
+    {
+      "tags": [
+        "python",
+        "esp32",
+        "esp-idf"
+      ],
+      "owner": {
+        "account_id": 935202,
+        "reputation": 47324,
+        "user_id": 964243,
+        "user_type": "registered",
+        "accept_rate": 66,
+        "profile_image": "https://i.stack.imgur.com/fL1rH.png?s=256&g=1",
+        "display_name": "Boann",
+        "link": "https://stackoverflow.com/users/964243/boann"
+      },
+      "is_answered": false,
+      "view_count": 64,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1657903021,
+      "creation_date": 1657824694,
+      "last_edit_date": 1657903021,
+      "question_id": 72985375,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72985375/esp-idf-installation-throws-up-python-errors",
+      "title": "ESP-IDF installation throws up Python errors"
+    },
+    {
+      "tags": [
+        "python"
+      ],
+      "owner": {
+        "account_id": 25762678,
+        "reputation": 1,
+        "user_id": 19513328,
+        "user_type": "registered",
+        "profile_image": "https://i.stack.imgur.com/5tCuh.png?s=256&g=1",
+        "display_name": "Gui_Crypto",
+        "link": "https://stackoverflow.com/users/19513328/gui-crypto"
+      },
+      "is_answered": false,
+      "view_count": 13,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1657824386,
+      "creation_date": 1657824386,
+      "question_id": 72985332,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72985332/pysimplegui-multiple-screens-error-recognizing-variable",
+      "title": "PysimpleGui multiple screens error recognizing variable"
+    },
+    {
+      "tags": [
+        "python",
+        "arguments",
+        "wrapper"
+      ],
+      "owner": {
+        "account_id": 25809862,
+        "reputation": 11,
+        "user_id": 19550813,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/e6eafc6c823458c2043af89da9ea94c4?s=256&d=identicon&r=PG",
+        "display_name": "chbot95",
+        "link": "https://stackoverflow.com/users/19550813/chbot95"
+      },
+      "is_answered": true,
+      "view_count": 56,
+      "accepted_answer_id": 72998557,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1657912105,
+      "creation_date": 1657819866,
+      "last_edit_date": 1657912105,
+      "question_id": 72984509,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/72984509/change-only-certain-arguments-in-a-class-method-hold-others-constant",
+      "title": "Change only certain arguments in a class/method, hold others constant"
+    }
+  ]

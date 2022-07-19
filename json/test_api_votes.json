@@ -1,0 +1,611 @@
+[
+    {
+      "tags": [
+        "python",
+        "iterator",
+        "generator"
+      ],
+      "owner": {
+        "account_id": 9828,
+        "reputation": 137036,
+        "user_id": 18300,
+        "user_type": "registered",
+        "accept_rate": 92,
+        "profile_image": "https://i.stack.imgur.com/jcyI4.jpg?s=256&g=1",
+        "display_name": "Alex. S.",
+        "link": "https://stackoverflow.com/users/18300/alex-s"
+      },
+      "is_answered": true,
+      "view_count": 2959999,
+      "protected_date": 1360547307,
+      "accepted_answer_id": 231855,
+      "answer_count": 48,
+      "score": 12143,
+      "last_activity_date": 1654466632,
+      "creation_date": 1224800471,
+      "last_edit_date": 1654466632,
+      "question_id": 231767,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do",
+      "title": "What does the &quot;yield&quot; keyword do?"
+    },
+    {
+      "tags": [
+        "python",
+        "namespaces",
+        "main",
+        "python-module",
+        "idioms"
+      ],
+      "owner": {
+        "account_id": 21259,
+        "reputation": 98391,
+        "user_id": 51518,
+        "user_type": "registered",
+        "accept_rate": 86,
+        "profile_image": "https://www.gravatar.com/avatar/eb5a95cb1be342c4089183cd8232a7f2?s=256&d=identicon&r=PG",
+        "display_name": "Devoted",
+        "link": "https://stackoverflow.com/users/51518/devoted"
+      },
+      "is_answered": true,
+      "view_count": 4114975,
+      "protected_date": 1365246276,
+      "accepted_answer_id": 419185,
+      "answer_count": 42,
+      "score": 7574,
+      "last_activity_date": 1654378422,
+      "creation_date": 1231301460,
+      "last_edit_date": 1654378422,
+      "question_id": 419163,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/419163/what-does-if-name-main-do",
+      "title": "What does if __name__ == &quot;__main__&quot;: do?"
+    },
+    {
+      "tags": [
+        "python",
+        "operators",
+        "conditional-operator"
+      ],
+      "owner": {
+        "account_id": 21259,
+        "reputation": 98391,
+        "user_id": 51518,
+        "user_type": "registered",
+        "accept_rate": 86,
+        "profile_image": "https://www.gravatar.com/avatar/eb5a95cb1be342c4089183cd8232a7f2?s=256&d=identicon&r=PG",
+        "display_name": "Devoted",
+        "link": "https://stackoverflow.com/users/51518/devoted"
+      },
+      "is_answered": true,
+      "view_count": 2538670,
+      "protected_date": 1370841342,
+      "accepted_answer_id": 394814,
+      "answer_count": 32,
+      "community_owned_date": 1358001430,
+      "score": 7377,
+      "last_activity_date": 1654483962,
+      "creation_date": 1230366738,
+      "last_edit_date": 1654483962,
+      "question_id": 394809,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/394809/does-python-have-a-ternary-conditional-operator",
+      "title": "Does Python have a ternary conditional operator?"
+    },
+    {
+      "tags": [
+        "python",
+        "oop",
+        "metaclass",
+        "python-class",
+        "python-datamodel"
+      ],
+      "owner": {
+        "account_id": 6018,
+        "reputation": 554701,
+        "user_id": 9951,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://www.gravatar.com/avatar/?s=256&d=identicon&r=PG&f=1",
+        "display_name": "e-satis",
+        "link": "https://stackoverflow.com/users/9951/e-satis"
+      },
+      "is_answered": true,
+      "view_count": 1025066,
+      "protected_date": 1350585760,
+      "accepted_answer_id": 100146,
+      "answer_count": 24,
+      "score": 6858,
+      "last_activity_date": 1654435829,
+      "creation_date": 1221804646,
+      "last_edit_date": 1650334283,
+      "question_id": 100003,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/100003/what-are-metaclasses-in-python",
+      "title": "What are metaclasses in Python?"
+    },
+    {
+      "tags": [
+        "python",
+        "file",
+        "file-exists"
+      ],
+      "owner": {
+        "account_id": 8617,
+        "reputation": 73529,
+        "user_id": 15616,
+        "user_type": "registered",
+        "accept_rate": 83,
+        "profile_image": "https://www.gravatar.com/avatar/1d502f7932af0a41d8ff6ab5d9cf3406?s=256&d=identicon&r=PG",
+        "display_name": "spence91",
+        "link": "https://stackoverflow.com/users/15616/spence91"
+      },
+      "is_answered": true,
+      "view_count": 4873364,
+      "protected_date": 1370841219,
+      "answer_count": 39,
+      "score": 6688,
+      "last_activity_date": 1654484259,
+      "creation_date": 1221656100,
+      "last_edit_date": 1616874145,
+      "question_id": 82831,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/82831/how-do-i-check-whether-a-file-exists-without-exceptions",
+      "title": "How do I check whether a file exists without exceptions?"
+    },
+    {
+      "tags": [
+        "python",
+        "dictionary",
+        "merge"
+      ],
+      "owner": {
+        "account_id": 2310,
+        "reputation": 115558,
+        "user_id": 3207,
+        "user_type": "registered",
+        "accept_rate": 100,
+        "profile_image": "https://www.gravatar.com/avatar/b1f36e554be0e1ae19f9a74d6ece9107?s=256&d=identicon&r=PG",
+        "display_name": "Carl Meyer",
+        "link": "https://stackoverflow.com/users/3207/carl-meyer"
+      },
+      "is_answered": true,
+      "view_count": 2777569,
+      "protected_date": 1392127410,
+      "accepted_answer_id": 26853961,
+      "answer_count": 43,
+      "score": 6359,
+      "last_activity_date": 1655920894,
+      "creation_date": 1220341470,
+      "last_edit_date": 1655920894,
+      "question_id": 38987,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/38987/how-do-i-merge-two-dictionaries-in-a-single-expression",
+      "title": "How do I merge two dictionaries in a single expression?"
+    },
+    {
+      "tags": [
+        "python",
+        "shell",
+        "terminal",
+        "subprocess",
+        "command"
+      ],
+      "owner": {
+        "account_id": 9288,
+        "reputation": 59009,
+        "user_id": 17085,
+        "user_type": "registered",
+        "accept_rate": 89,
+        "profile_image": "https://www.gravatar.com/avatar/d386a6f2f3dda7bcf7f1e11c2171946b?s=256&d=identicon&r=PG",
+        "display_name": "freshWoWer",
+        "link": "https://stackoverflow.com/users/17085/freshwower"
+      },
+      "is_answered": true,
+      "view_count": 4065591,
+      "protected_date": 1366143800,
+      "accepted_answer_id": 89243,
+      "answer_count": 64,
+      "score": 5731,
+      "last_activity_date": 1653386808,
+      "creation_date": 1221701730,
+      "last_edit_date": 1648546236,
+      "question_id": 89228,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/89228/how-do-i-execute-a-program-or-call-a-system-command",
+      "title": "How do I execute a program or call a system command?"
+    },
+    {
+      "tags": [
+        "python",
+        "exception",
+        "path",
+        "directory",
+        "operating-system"
+      ],
+      "owner": {
+        "account_id": 7495,
+        "reputation": 98306,
+        "user_id": 13055,
+        "user_type": "registered",
+        "accept_rate": 68,
+        "profile_image": "https://www.gravatar.com/avatar/ab82fd8b5ffe4d09c2bb5f9c14d34b09?s=256&d=identicon&r=PG",
+        "display_name": "Parand",
+        "link": "https://stackoverflow.com/users/13055/parand"
+      },
+      "is_answered": true,
+      "view_count": 3322119,
+      "protected_date": 1392127892,
+      "accepted_answer_id": 273227,
+      "answer_count": 29,
+      "score": 5249,
+      "last_activity_date": 1656314622,
+      "creation_date": 1226084205,
+      "last_edit_date": 1654484967,
+      "question_id": 273192,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/273192/how-can-i-safely-create-a-nested-directory",
+      "title": "How can I safely create a nested directory?"
+    },
+    {
+      "tags": [
+        "python",
+        "loops",
+        "list"
+      ],
+      "owner": {
+        "account_id": 21350,
+        "reputation": 295603,
+        "user_id": 51816,
+        "user_type": "registered",
+        "accept_rate": 82,
+        "profile_image": "https://www.gravatar.com/avatar/0e54bb28182bcd9df39704751306df27?s=256&d=identicon&r=PG",
+        "display_name": "Joan Venge",
+        "link": "https://stackoverflow.com/users/51816/joan-venge"
+      },
+      "is_answered": true,
+      "view_count": 3272271,
+      "protected_date": 1458291839,
+      "accepted_answer_id": 522578,
+      "answer_count": 24,
+      "score": 4757,
+      "last_activity_date": 1656027602,
+      "creation_date": 1233960474,
+      "last_edit_date": 1648547785,
+      "question_id": 522563,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/522563/accessing-the-index-in-for-loops",
+      "title": "Accessing the index in &#39;for&#39; loops"
+    },
+    {
+      "tags": [
+        "python",
+        "list",
+        "multidimensional-array",
+        "flatten"
+      ],
+      "owner": {
+        "account_id": 38503,
+        "reputation": 47885,
+        "user_id": 110527,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/1a3fec384503a3e0b33361f146006598?s=256&d=identicon&r=PG",
+        "display_name": "Emma",
+        "link": "https://stackoverflow.com/users/110527/emma"
+      },
+      "is_answered": true,
+      "view_count": 3479539,
+      "protected_date": 1357910574,
+      "accepted_answer_id": 952952,
+      "answer_count": 32,
+      "score": 4718,
+      "last_activity_date": 1657542091,
+      "creation_date": 1244147405,
+      "last_edit_date": 1653452487,
+      "question_id": 952914,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/952914/how-do-i-make-a-flat-list-out-of-a-list-of-lists",
+      "title": "How do I make a flat list out of a list of lists?"
+    },
+    {
+      "tags": [
+        "python",
+        "oop",
+        "methods",
+        "python-decorators"
+      ],
+      "owner": {
+        "account_id": 3306,
+        "reputation": 134939,
+        "user_id": 4766,
+        "user_type": "registered",
+        "accept_rate": 96,
+        "profile_image": "https://www.gravatar.com/avatar/56dbb3799dd6358c3bee3468d0328046?s=256&d=identicon&r=PG",
+        "display_name": "Daryl Spitzer",
+        "link": "https://stackoverflow.com/users/4766/daryl-spitzer"
+      },
+      "is_answered": true,
+      "view_count": 977561,
+      "protected_date": 1357551416,
+      "accepted_answer_id": 1669524,
+      "answer_count": 33,
+      "score": 4356,
+      "last_activity_date": 1653027572,
+      "creation_date": 1222376517,
+      "last_edit_date": 1649487202,
+      "question_id": 136097,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/136097/difference-between-staticmethod-and-classmethod",
+      "title": "Difference between @staticmethod and @classmethod"
+    },
+    {
+      "tags": [
+        "python",
+        "slice",
+        "sequence"
+      ],
+      "owner": {
+        "account_id": 12256,
+        "reputation": 75759,
+        "user_id": 24039,
+        "user_type": "registered",
+        "accept_rate": 56,
+        "profile_image": "https://www.gravatar.com/avatar/56e7993be670c363354b696cff311172?s=256&d=identicon&r=PG",
+        "display_name": "Simon",
+        "link": "https://stackoverflow.com/users/24039/simon"
+      },
+      "is_answered": true,
+      "view_count": 2615268,
+      "protected_date": 1360315248,
+      "accepted_answer_id": 509295,
+      "answer_count": 36,
+      "score": 4286,
+      "last_activity_date": 1658059734,
+      "creation_date": 1233700262,
+      "last_edit_date": 1648552222,
+      "question_id": 509211,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/509211/understanding-slicing",
+      "title": "Understanding slicing"
+    },
+    {
+      "tags": [
+        "python",
+        "list",
+        "indexing"
+      ],
+      "owner": {
+        "account_id": 12914,
+        "reputation": 45139,
+        "user_id": 25680,
+        "user_type": "registered",
+        "accept_rate": 85,
+        "profile_image": "https://www.gravatar.com/avatar/69d55a08bdc1f4440ff16d8d13427207?s=256&d=identicon&r=PG",
+        "display_name": "Eugene M",
+        "link": "https://stackoverflow.com/users/25680/eugene-m"
+      },
+      "is_answered": true,
+      "view_count": 5483313,
+      "protected_date": 1460736845,
+      "accepted_answer_id": 176921,
+      "answer_count": 42,
+      "score": 4085,
+      "last_activity_date": 1657617778,
+      "creation_date": 1223343578,
+      "last_edit_date": 1648468876,
+      "question_id": 176918,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/176918/finding-the-index-of-an-item-in-a-list",
+      "title": "Finding the index of an item in a list"
+    },
+    {
+      "tags": [
+        "python",
+        "dictionary"
+      ],
+      "owner": {
+        "account_id": 276485,
+        "reputation": 40867,
+        "user_id": 1212392,
+        "user_type": "registered",
+        "accept_rate": 84,
+        "profile_image": "https://www.gravatar.com/avatar/2d2462f1533adf1f46730674902713df?s=256&d=identicon&r=PG",
+        "display_name": "TopChef",
+        "link": "https://stackoverflow.com/users/1212392/topchef"
+      },
+      "is_answered": true,
+      "view_count": 5235479,
+      "protected_date": 1476361893,
+      "accepted_answer_id": 3294899,
+      "answer_count": 15,
+      "score": 3923,
+      "last_activity_date": 1648774098,
+      "creation_date": 1279664862,
+      "last_edit_date": 1648774098,
+      "question_id": 3294889,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/3294889/iterating-over-dictionaries-using-for-loops",
+      "title": "Iterating over dictionaries using &#39;for&#39; loops"
+    },
+    {
+      "tags": [
+        "python",
+        "global-variables",
+        "scope"
+      ],
+      "owner": {
+        "account_id": 19782,
+        "reputation": 145461,
+        "user_id": 46646,
+        "user_type": "registered",
+        "accept_rate": 33,
+        "profile_image": "https://www.gravatar.com/avatar/a1e278de9bdbf3ecd96d0d786fa97392?s=256&d=identicon&r=PG",
+        "display_name": "user46646",
+        "link": "https://stackoverflow.com/users/46646/user46646"
+      },
+      "is_answered": true,
+      "view_count": 3747172,
+      "protected_date": 1458291640,
+      "accepted_answer_id": 423596,
+      "answer_count": 24,
+      "score": 3694,
+      "last_activity_date": 1655115084,
+      "creation_date": 1231393502,
+      "last_edit_date": 1654466997,
+      "question_id": 423379,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/423379/using-global-variables-in-a-function",
+      "title": "Using global variables in a function"
+    },
+    {
+      "tags": [
+        "python",
+        "string",
+        "substring",
+        "contains"
+      ],
+      "owner": {
+        "account_id": 17640,
+        "reputation": 249730,
+        "user_id": 39677,
+        "user_type": "registered",
+        "accept_rate": 57,
+        "profile_image": "https://www.gravatar.com/avatar/77aa7bc1ace6e4b0b49a2102e4fa4059?s=256&d=identicon&r=PG",
+        "display_name": "Blankman",
+        "link": "https://stackoverflow.com/users/39677/blankman"
+      },
+      "is_answered": true,
+      "view_count": 5977130,
+      "protected_date": 1444738815,
+      "accepted_answer_id": 3437070,
+      "answer_count": 10,
+      "score": 3589,
+      "locked_date": 1569178223,
+      "last_activity_date": 1650333779,
+      "creation_date": 1281322370,
+      "last_edit_date": 1495821772,
+      "question_id": 3437059,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://stackoverflow.com/questions/3437059/does-python-have-a-string-contains-substring-method",
+      "title": "Does Python have a string &#39;contains&#39; substring method?"
+    },
+    {
+      "tags": [
+        "python",
+        "datetime",
+        "time"
+      ],
+      "owner": {
+        "account_id": 19782,
+        "reputation": 145461,
+        "user_id": 46646,
+        "user_type": "registered",
+        "accept_rate": 33,
+        "profile_image": "https://www.gravatar.com/avatar/a1e278de9bdbf3ecd96d0d786fa97392?s=256&d=identicon&r=PG",
+        "display_name": "user46646",
+        "link": "https://stackoverflow.com/users/46646/user46646"
+      },
+      "is_answered": true,
+      "view_count": 3907619,
+      "protected_date": 1335441820,
+      "accepted_answer_id": 415519,
+      "answer_count": 51,
+      "score": 3557,
+      "last_activity_date": 1657037935,
+      "creation_date": 1231217663,
+      "last_edit_date": 1648812467,
+      "question_id": 415511,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/415511/how-do-i-get-the-current-time",
+      "title": "How do I get the current time?"
+    },
+    {
+      "tags": [
+        "python",
+        "exception",
+        "exception-handling"
+      ],
+      "owner": {
+        "account_id": 67986,
+        "reputation": 105053,
+        "user_id": 198633,
+        "user_type": "registered",
+        "accept_rate": 88,
+        "profile_image": "https://www.gravatar.com/avatar/5b9c04999233026354268c2ee4237e04?s=256&d=identicon&r=PG",
+        "display_name": "inspectorG4dget",
+        "link": "https://stackoverflow.com/users/198633/inspectorg4dget"
+      },
+      "is_answered": true,
+      "view_count": 1256424,
+      "protected_date": 1447952997,
+      "accepted_answer_id": 6470452,
+      "answer_count": 6,
+      "score": 3530,
+      "last_activity_date": 1648858581,
+      "creation_date": 1308930908,
+      "last_edit_date": 1590535663,
+      "question_id": 6470428,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/6470428/catch-multiple-exceptions-in-one-line-except-block",
+      "title": "Catch multiple exceptions in one line (except block)"
+    },
+    {
+      "tags": [
+        "python",
+        "pandas",
+        "dataframe"
+      ],
+      "owner": {
+        "account_id": 88863,
+        "reputation": 113755,
+        "user_id": 245549,
+        "user_type": "registered",
+        "accept_rate": 66,
+        "profile_image": "https://www.gravatar.com/avatar/eec7e09c7d0731a44e91b403dd0bc347?s=256&d=identicon&r=PG",
+        "display_name": "Roman",
+        "link": "https://stackoverflow.com/users/245549/roman"
+      },
+      "is_answered": true,
+      "view_count": 5425166,
+      "protected_date": 1549951536,
+      "accepted_answer_id": 16476974,
+      "answer_count": 32,
+      "score": 3493,
+      "last_activity_date": 1656650838,
+      "creation_date": 1368169489,
+      "last_edit_date": 1654485304,
+      "question_id": 16476924,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/16476924/how-to-iterate-over-rows-in-a-dataframe-in-pandas",
+      "title": "How to iterate over rows in a DataFrame in Pandas"
+    },
+    {
+      "tags": [
+        "python",
+        "directory"
+      ],
+      "owner": {
+        "account_id": 632723,
+        "reputation": 43965,
+        "user_id": 385652,
+        "user_type": "unregistered",
+        "accept_rate": 0,
+        "profile_image": "https://www.gravatar.com/avatar/11e64aea4e206ff5498ad34adda044b4?s=256&d=identicon&r=PG",
+        "display_name": "duhhunjonn",
+        "link": "https://stackoverflow.com/users/385652/duhhunjonn"
+      },
+      "is_answered": true,
+      "view_count": 6939945,
+      "protected_date": 1418871258,
+      "answer_count": 21,
+      "score": 3467,
+      "locked_date": 1558118102,
+      "last_activity_date": 1650333344,
+      "creation_date": 1278617482,
+      "last_edit_date": 1508639713,
+      "question_id": 3207219,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://stackoverflow.com/questions/3207219/how-do-i-list-all-files-of-a-directory",
+      "title": "How do I list all files of a directory?"
+    }
+  ]
