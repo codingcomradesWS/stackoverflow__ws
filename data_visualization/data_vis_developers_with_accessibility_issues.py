@@ -1,14 +1,21 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def devs_with_accessibility_issues():
+
+def devs_with_accessibility_issues():  # pragma: no cover
     """
     This function returning the number of developers who are having issues with working on stackoverflow and who are not or prefer not to say
     :return:
     """
     final_data =[]
     types_of_issues =['Having difficulty Seeing / Hearing / Walking / Standing without assistance', 'Do not have issues or prefer not to say']
-    visitors = pd.read_csv('../csv/survey_results_public.csv')
+
+    # If you want to start it in pycharm terminal, use this line:
+    # visitors = pd.read_csv('../csv/survey_results_public.csv')
+
+    # If you want to start it in the main terminal, use this line:
+    visitors = pd.read_csv('csv/survey_results_public.csv')
+
     accessibility_total = len(visitors) - visitors['Accessibility'].value_counts()['None of the above'] - visitors['Accessibility'].value_counts()['Prefer not to say']
     other_total = visitors['Accessibility'].value_counts()['None of the above'] + visitors['Accessibility'].value_counts()['Prefer not to say']
     final_data.append(accessibility_total)
@@ -20,5 +27,5 @@ def devs_with_accessibility_issues():
     plt.show()
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     devs_with_accessibility_issues()

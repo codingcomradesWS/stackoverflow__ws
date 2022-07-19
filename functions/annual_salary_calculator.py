@@ -14,7 +14,12 @@ def annual_salary_calculator():
                      'PLN	Polish zloty', 'CAD	Canadian dollar', "BRL	Brazilian real"]
     exchange_list = [1.023, 0.012, 1.023, 1, 0.148, 1, 0.018, 0.22, 0.77, 0.18]
     annual_salary_list = []
-    df = pd.read_csv('../csv/survey_results_public.csv')
+
+    # If you want to start it in pycharm terminal, use this line:
+    # df = pd.read_csv('../csv/survey_results_public.csv')
+
+    # If you want to start it in the main terminal, use this line:
+    df = pd.read_csv('csv/survey_results_public.csv')
 
     for i in range(len(countries_list)):
         data_yearly = df.loc[
