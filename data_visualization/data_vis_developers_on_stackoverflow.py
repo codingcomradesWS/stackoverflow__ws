@@ -27,6 +27,6 @@ def developers_on_stackoverflow():
     plt.show()
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     developers_on_stackoverflow()
 
