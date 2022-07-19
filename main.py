@@ -5,9 +5,11 @@ from functions.new_duplicate_question import new_duplicate_question
 from functions.stack_api import *
 from functions.most_frequent_answers import get_frequent
 from functions.best_companies_hiring import get_best_companies_hiring
-from data_visualization.data_vis_developers_on_stackoverflow import developers_on_stackoverflow
-from data_visualization.data_vis_most_active_community import data_vis_most_active_community
-from data_visualization.data_vis_unanswered_percentage import unanswered_questions_percentage_visualization
+from data_visualization import (data_vis_unanswered_percentage,
+                                data_vis_most_active_community,
+                                data_vis_developers_on_stackoverflow,
+                                data_vis_middle_east_countries,
+                                data_vis_developers_with_accessibility_issues)
 from pick import pick
 from colorama import Fore, Back, Style
 from halo import Halo
@@ -92,9 +94,18 @@ class AppManager:  # pragma: no cover
         self.tag_user_input = ""
         self.filter_user_input = ""
         self.questions_number_user_input = ""
-        self.chart_input_option = ""
-        self.chart_select_options = ["Kinds of developers on Stack overflow", "Community activity on Stack overflow",
-                                     "The percentage of unanswered questions for the most popular tags"]
+        self.chart_input_option = 0
+        # Options to choose from
+        self.chart_select_options = ["Percentage of unanswered questions for popular tags",
+                                     "Community activity on Stack overflow",
+                                     "Kinds of developers on Stack overflow",
+                                     "Developers of Stack overflow in middle east countries",
+                                     "Developers of Stack overflow with accessibility issues"]
+        self.chart_option_to_show = [data_vis_unanswered_percentage.unanswered_questions_percentage_visualization,
+                                     data_vis_most_active_community.data_vis_most_active_community,
+                                     data_vis_developers_on_stackoverflow.developers_on_stackoverflow,
+                                     data_vis_middle_east_countries.middle_east_countries_on_stackoverflow,
+                                     data_vis_developers_with_accessibility_issues.devs_with_accessibility_issues]
 
     def _continue_process(self):
         """
@@ -111,7 +122,8 @@ class AppManager:  # pragma: no cover
         print(f"{Fore.LIGHTGREEN_EX}\nAction: {Fore.LIGHTYELLOW_EX}{self.option[0]}\n")
 
     def _input_options(self):
-        print(f"{Fore.LIGHTGREEN_EX}Enter a tag name: \n(ex: python, javascript, c#, etc...)\n")
+        print(f"{Fore.LIGHTGREEN_EX}Enter a tag name: \n(ex: {Fore.LIGHTBLUE_EX}"
+              f"python, javascript, c#, etc...{Fore.LIGHTGREEN_EX})\n")
         self.tag_user_input = input("> ")
 
         if self.option[0] == "Search by tag":
@@ -133,25 +145,21 @@ class AppManager:  # pragma: no cover
         print(f"{Fore.LIGHTGREEN_EX}\nAction: {Fore.LIGHTYELLOW_EX}{self.filter_user_input[0]}\n")
 
     def _get_requested_number(self):
-        print(f"\n{Fore.LIGHTGREEN_EX}Enter the number of questions to return: \n(max is 50 questions)\n")
+        print(f"\n{Fore.LIGHTGREEN_EX}Enter the number of questions to return: \n({Fore.LIGHTBLUE_EX}"
+              f"max is {Fore.LIGHTYELLOW_EX}50 {Fore.LIGHTBLUE_EX}questions{Fore.LIGHTGREEN_EX})\n")
         self.questions_number_user_input = input("> ")
 
     def _get_chart_input(self):
         title = 'Please choose the preferred action: '
 
         option = pick(self.chart_select_options, title, indicator='=>', default_index=0)
-        self.chart_input_option = option[0]
-        print(f"{Fore.LIGHTGREEN_EX}\nAction: {Fore.LIGHTYELLOW_EX}{self.chart_input_option[0]}\n")
+        self.chart_input_option = option[0][1]
+        print(f"{Fore.LIGHTGREEN_EX}\nAction: {Fore.LIGHTYELLOW_EX}{option[0][0]}\n")
 
     def _get_chart_render(self):
         spinner = Halo(text="Getting Data...", text_color="green", spinner='dots', color="grey")
         spinner.start()
-        if self.chart_input_option[0] == self.chart_select_options[0]:
-            self.chart_reference = developers_on_stackoverflow()
-        elif self.chart_input_option[0] == self.chart_select_options[1]:
-            self.chart_reference = data_vis_most_active_community()
-        elif self.chart_input_option[0] == self.chart_select_options[2]:
-            self.chart_reference = unanswered_questions_percentage_visualization()
+        self.chart_option_to_show[self.chart_input_option]()
         spinner.stop()
         print(f"{Fore.LIGHTGREEN_EX}\033[A                             \033[A")
         get_continue_message()
