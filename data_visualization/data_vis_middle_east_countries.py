@@ -25,7 +25,7 @@ def middle_east_countries_on_stackoverflow():
     plt.rcParams["figure.figsize"] = [20.00, 6]
     plt.rcParams.update({'font.size': 6})
     plt.bar(countries_names, developers_numbers)
-    plt.title("The numbers of developers from the Middle East countries")
+    plt.title("The numbers of developers from the Middle East countries using Stackoverflow")
     plt.show()
 
 
