@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from functions.annual_salary_calculator import annual_salary_calculator
 
 
-def data_vis_annual_salary_calculator():
+def data_vis_annual_salary_calculator():  # pragma: no cover
     """
     This function is used to visualize the data from the annual_salary_calculator function
     :param: None
