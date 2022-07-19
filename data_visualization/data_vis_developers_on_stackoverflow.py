@@ -27,7 +27,6 @@ def developers_on_stackoverflow():
     plt.show()
 
 
-
 if __name__ == '__main__':
     developers_on_stackoverflow()
 
