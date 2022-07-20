@@ -1,7 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def data_vis_ages():
+
+def data_vis_ages():  # pragma: no cover
     df = pd.read_csv('csv/survey_results_public.csv')
     df2 = df.groupby(['Age'])['Age'].count()
     plot = df2.plot.pie(y='Category',  startangle=0)
@@ -12,7 +13,5 @@ def data_vis_ages():
     plt.show()
 
 
-
-
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     data_vis_ages()

@@ -10,7 +10,8 @@ from data_visualization import (data_vis_unanswered_percentage,
                                 data_vis_developers_on_stackoverflow,
                                 data_vis_middle_east_countries,
                                 data_vis_developers_with_accessibility_issues,
-                                data_vis_annual_salary_calculator)
+                                data_vis_annual_salary_calculator,
+                                data_vis_ages)
 from pick import pick
 from colorama import Fore, Back, Style
 from halo import Halo
@@ -102,13 +103,15 @@ class AppManager:  # pragma: no cover
                                      "Kinds of developers on Stack overflow",
                                      "Developers of Stack overflow in middle east countries",
                                      "Developers of Stack overflow with accessibility issues",
-                                     "Annual salary for developers of Stack overflow"]
+                                     "Annual salary for developers of Stack overflow",
+                                     "Developers ages in Stack overflow"]
         self.chart_option_to_show = [data_vis_unanswered_percentage.unanswered_questions_percentage_visualization,
                                      data_vis_most_active_community.data_vis_most_active_community,
                                      data_vis_developers_on_stackoverflow.developers_on_stackoverflow,
                                      data_vis_middle_east_countries.middle_east_countries_on_stackoverflow,
                                      data_vis_developers_with_accessibility_issues.devs_with_accessibility_issues,
-                                     data_vis_annual_salary_calculator.data_vis_annual_salary_calculator]
+                                     data_vis_annual_salary_calculator.data_vis_annual_salary_calculator,
+                                     data_vis_ages.data_vis_ages]
 
     def _continue_process(self):
         """
