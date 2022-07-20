@@ -20,13 +20,13 @@ def unanswered_questions_percentage_visualization():  # pragma: no cover
     bar3 = [i + w for i in bar2]
     plt.bar(bar1, df['unanswered_7days'], w, label="unanswered question in the last 7 days")
     plt.bar(bar2, df['unanswered_30days'], w, label="unanswered question in the last 30 days")
-    plt.bar(bar2, df['unanswered_30days'], w, label="unanswered question all time")
-    plt.bar(bar3, df['unanswered_all_time'], w)
+    plt.bar(bar3, df['unanswered_all_time'], w, label="unanswered question all time")
+    plt.legend()
+
     plt.xticks(bar1 + w / 2, x_var, rotation=45)
     plt.xlabel("Tags")
-    plt.ylabel("Unanswered questions")
+    plt.ylabel("Unanswered questions percentage")
     plt.title("Tags Vs Unanswered questions")
-    plt.legend()
     plt.show()
 
 
